@@ -26,6 +26,8 @@ include_once( dirname( __FILE__ ) . '/widgets/class-flash-widget-blog.php' );
 include_once( dirname( __FILE__ ) . '/widgets/class-flash-widget-testimonial.php' );
 include_once( dirname( __FILE__ ) . '/widgets/class-flash-widget-slider.php' );
 include_once( dirname( __FILE__ ) . '/widgets/class-flash-widget-portfolio.php' );
+//TrungNH
+include_once( dirname( __FILE__ ) . '/widgets/class-flash-widget-product.php' );
 include_once( dirname( __FILE__ ) . '/widgets/class-flash-widget-cta.php' );
 include_once( dirname( __FILE__ ) . '/widgets/class-flash-widget-image.php' );
 
@@ -44,6 +46,8 @@ function flash_register_widgets() {
 	register_widget( 'FT_Widget_Testimonial' );
 	register_widget( 'FT_Widget_Slider' );
 	register_widget( 'FT_Widget_Portfolio' );
+	//TrungNH
+	register_widget( 'FT_Widget_Product' );
 	register_widget( 'FT_Widget_CTA' );
 	register_widget( 'FT_Widget_Image' );
 }
