@@ -1,4 +1,4 @@
-<script type='text/javascript' src='https://www.aichome.vn/wp-content/themes/flash/js/isotope.pkgd.min.js?ver=4.9.4'></script>
+<script type='text/javascript' src='/wp-content/themes/flash/js/isotope.pkgd.min.js?ver=4.9.4'></script>
 <?php
 /**
  * The template for displaying portfolio widget.

@@ -11,3 +11,27 @@ Text Domain:  flash-child
 */
 
 /* Write here your own personal stylesheet */
+
+
+.productFilter, .projectFilter {
+    padding: 15px 0;
+    text-align: center;
+}
+
+.filter-item {
+    margin-right: 6px;
+    color: #666;
+    text-decoration: none;
+    border: 1px solid #ccc;
+    padding: 4px 15px;
+    border-radius: 7px;
+    display: inline-block;
+}
+
+.filter-item.current {
+    background: #1e1e1e;
+    border: 1px solid #1e1e1e;
+    color: #f9f9f9;
+}
+
+.productContainer .product-info .woocommerce-Price-amount.amount{color: #ff0000;font-family: 'Roboto Condensed', sans-serif;font-size: 20px;font-weight: bold; text-align: left;margin: 0;padding: 0 10px}
