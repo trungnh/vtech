@@ -34,4 +34,37 @@ Text Domain:  flash-child
     color: #f9f9f9;
 }
 
-.productContainer .product-info .woocommerce-Price-amount.amount{color: #ff0000;font-family: 'Roboto Condensed', sans-serif;font-size: 20px;font-weight: bold; text-align: left;margin: 0;padding: 0 10px}
+.infomation .widget.tg-widget .fun-facts-section .tg-fun-facts-widget .fun-facts-wrapper .counter, .infomation .widget.tg-widget .fun-facts-section .tg-fun-facts-widget .fun-facts-wrapper i {color: #fff;}
+
+.productContainer .product-info .woocommerce-Price-amount.amount{color: #ff0000;font-family: 'Roboto Condensed', sans-serif;font-size: 15px;font-weight: bold; text-align: center;margin: 0;padding: 0 10px}
+.single-product .tg-container .trail-title {display:none;}
+.single-product .product del .woocommerce-Price-amount.amount{color: #00000c;}
+.single-product .product .woocommerce-Price-amount.amount{color: #ff0000;}
+.productContainer .product-info .product-title{text-align: center; font-size: 15px; line-height: 20px;}
+
+.single.single-product div.product .product_title {font-size: 24px; line-height: 24px;}
+
+.woocommerce span.onsale, .woocommerce ul.products li.product .onsale, .woocommerce div.product form.cart .button, .woocommerce ul.products li.product .button {
+    background-color: red!important;
+}
+.woocommerce-message {
+	background-color: #31B404;
+    color: #fff;
+}
+
+@media screen and (max-width: 768px){
+    .project-featured-wrapper .single-featured, .project-featured-wrapper .single-project-description{width: 100%; float: left;}
+	.projects ul.projects li.project, .projects-page ul.projects li.project, .woocommerce ul.products.columns-4 li.product, .woocommerce-page ul.products.columns-4 li.product {
+		width: 48%!important;
+	}
+	#secondary {display:none;}
+}
+
+@media (max-width: 480px){
+	/*.productContainer .product-info .product-title, .productContainer .product-info .woocommerce-Price-amount.amount {font-size: 10px; line-height: 12px;}*/
+	.tg-column-wrapper .tg-column-4{width: 97%}
+    .breadcrumb-trail.breadcrumbs .trail-title{font-size: 20px; width: 45%;}
+    li.project .project-thumbnail img{height: 160px!important;}
+    li.project{height: 235px;}
+    .projects ul.projects, .projects-page ul.projects{margin-top: 10px;}
+}

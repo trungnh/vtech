@@ -28,3 +28,9 @@ if ( ! function_exists( 'suffice_child_enqueue_child_styles' ) ) {
 add_action( 'wp_enqueue_scripts', 'flash_child_enqueue_child_styles' );
 
 /*Write here your own functions */
+
+add_filter( 'flash_toolkit_maximum_repeater_field_entries', 'flash_toolkit_maximum_repeater_field_entries_custom' );
+function flash_toolkit_maximum_repeater_field_entries_custom ()
+{
+	return 20;
+}
