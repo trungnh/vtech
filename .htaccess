@@ -1,3 +1,28 @@
+# BEGIN SecuPress bad_url_access
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    RewriteBase /
+    RewriteCond %{REQUEST_URI} !wp-includes/js/tinymce/wp-tinymce\.php$
+    RewriteRule ^(php\.ini|wp-config\.php|wp-includes/.+\.php|wp-admin/(admin-functions|install|menu-header|setup-config|([^/]+/)?menu|upgrade-functions|includes/.+)\.php)$ [R=404,L,NC]
+</IfModule>
+# END SecuPress
+
+# BEGIN SecuPress readme_discloses
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    RewriteBase /
+    RewriteRule ^(.*/)?(readme|changelog|debug)\.(txt|md|html|log)$ - [R=404,L,NC]
+</IfModule>
+# END SecuPress
+
+# BEGIN SecuPress wp_version
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    RewriteBase /
+    RewriteRule ^readme\.html$ - [R=404,L,NC]
+</IfModule>
+# END SecuPress
+
 
 # BEGIN WordPress
 # Các nội dung nằm giữa `BEGIN WordPress` và `END WordPress` được tạo ra tự động, và chỉ nên được thay đổi thông qua các filter của WordPress. Mọi thay đổi tới thành phần này có thể sẽ bị mất và ghi đè.

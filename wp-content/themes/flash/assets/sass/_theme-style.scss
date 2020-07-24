@@ -106,6 +106,10 @@ a {
 	}
 }
 
+embed, iframe, object {
+	max-width: 100%;
+}
+
 /*--------------------------------------------------------------
 Typography
 --------------------------------------------------------------*/
@@ -137,7 +141,9 @@ i {
 	font-style: italic;
 }
 
-blockquote {
+blockquote,
+.wp-block-quote,
+.wp-block-quote.is-style-large {
 	margin: 0 15px;
 	font-size: 20px;
 	font-style: italic;
@@ -242,7 +248,7 @@ h6 {
 Elements
 --------------------------------------------------------------*/
 
-hr {
+hr, .wp-block-separator {
 	background-color: #ccc;
 	border: 0;
 	height: 1px;
@@ -297,11 +303,9 @@ table {
 
 th {
 	font-weight: bold;
-	border: 1px solid #ccc;
-	padding: 5px 10px;
 }
 
-td {
+td, th, .wp-block-table th, .wp-block-table td {
 	border: 1px solid #ccc;
 	padding: 5px 10px;
 }
@@ -547,34 +551,54 @@ Clearings
 
 .full-width,
 .full-width-center {
-	overflow: hidden;
+overflow: hidden;
 
-	.alignfull {
+	#primary {
+
+	.entry-content {
+
+	> .alignfull {
 		margin-left: calc(50% - 50vw);
 		margin-right: calc(50% - 50vw);
 		max-width: unset;
 
-		img {
-			max-width: unset;
-		}
+	&.wp-block-cover,
+	&.wp-block-cover-image {
+		width: unset;
 	}
+}
 
-	.alignwide {
-		margin-left: -100px;
-		margin-right: -100px;
+	> .alignwide {
+		margin-left: -50px;
+		margin-right: -50px;
 		max-width: unset;
+		width: unset;
+	}
+}
 	}
 
 	&.boxed {
-		#content {
-			overflow: hidden;
-		}
 
-		.alignwide {
-			margin-left: -100px;
-			margin-right: -100px;
-		}
+		#primary {
 
+			.entry-content {
+
+					> .alignfull {
+					margin-left: -30px;
+					margin-right: -30px;
+					max-width: unset;
+
+						&.wp-block-cover,
+					&.wp-block-cover-image {
+						width: unset;
+					}
+				}
+
+				> .alignwide {
+					margin: 0;
+				}
+			}
+		}
 	}
 }
 
@@ -4557,6 +4581,19 @@ Comments
 				background-color: #1c9ba4;
 			}
 		}
+	}
+}
+
+/*--------------------------------------------------------------
+Gutenberg Blocks Layout.
+--------------------------------------------------------------*/
+.wp-block-gallery,
+.wp-block-social-links {
+
+	&.alignleft,
+	&.alignright,
+	&.aligncenter {
+		display: flex;
 	}
 }
 

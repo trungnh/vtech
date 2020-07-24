@@ -74,13 +74,14 @@ Images used in Screenshot of Flash theme:
 Logo, Copyright © 2016, ThemeGrill
 License: GNU GPL, Version 3, https://www.gnu.org/licenses/gpl-3.0.html
 
-Image used in screenshot
-License: CC0 Public Domain, https://creativecommons.org/publicdomain/zero/1.0/deed.en
-Source: https://pixabay.com/en/coffee-book-flowers-setting-2390136/
-
 Unless otherwise specified, all the theme files, scripts and images including the screenshot image are licensed under [GNU GPL] (http://www.gnu.org/licenses/gpl-3.0.txt), version 3 or later.
 
 == Changelog ==
+= Version 1.3.5 - 2020-07-16 =
+* Enhancement - Gutenberg compatibility.
+* Tweak - Change http protocol to https.
+* Remove - Unrequired deprecated demo config for theme demo lists.
+
 = Version 1.3.4 - 2020-05-27 =
 * Add - Required header fields: `Tested up to` and `Requires PHP` in style.css.
 * Tweak - Add and improve theme-related notices.

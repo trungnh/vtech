@@ -1,4 +1,14 @@
 <?php
+# BEGIN SecuPress Correct Constants Values
+define( 'WP_DEBUG_DISPLAY', false ); // Added by SecuPress.
+# END SecuPress
+
+
+# BEGIN SecuPress file_edit
+define( 'DISALLOW_FILE_EDIT', true );
+# END SecuPress
+
+
 /**
  * The base configuration for WordPress
  *
@@ -46,14 +56,7 @@ define( 'DB_COLLATE', '' );
  *
  * @since 2.6.0
  */
-define( 'AUTH_KEY',         ' hx;1a kGW09NlQqu)4/9ycp<ds,*`!>?*QRkid%MZ9~i~kWyo)-{)r[t8_g!s_v' );
-define( 'SECURE_AUTH_KEY',  ',}WLJb>1M:TESB$,B+*_1I-[p2X|W#Z<Le]I152OcRckh#0U`9h4Z,zH|=s%A8t#' );
-define( 'LOGGED_IN_KEY',    ']r:*amAnqoy]:-vE3Jm*{5hR}C}j1]{Sh<-Oc:KvllF#dP9u*$W~zF.AXKg-jU~%' );
-define( 'NONCE_KEY',        'sh)?.=5w,l_:0~l.4xEDi0`IJg3lX@%D[b$f$B`=|1kHY>_9po%[y=p^#j6`iSSS' );
-define( 'AUTH_SALT',        'Z[R[Q!>@WYqJ(!9~E?EjyAxa2>}E<,U<(){>J09PCr#rsN>/6O=HIY[w126)wL^L' );
-define( 'SECURE_AUTH_SALT', '`,`{9gQtl-+@zuoGNw=@5B#kk$(Y7.fTn,L0okM~sBgU(}RtYE6&zZx+f=T5ZKT#' );
-define( 'LOGGED_IN_SALT',   'h6Nj7ztLc5J1s9oo(w(C8)$_W>5oJ{Z(/eh+N|z A=c^[g-I1^HeR77-,UnGB^}S' );
-define( 'NONCE_SALT',       'yP*K*yzO1~hfwzK4TGu*|FVK*SJ`=} p}wA103eMd`Ctba%7[D6@5MpNbLttAy`1' );
+/** SecuPress: if you ever want to add secret keys back here, get new ones at https://api.wordpress.org/secret-key/1.1/salt. */
 
 /**#@-*/
 
@@ -63,7 +66,8 @@ define( 'NONCE_SALT',       'yP*K*yzO1~hfwzK4TGu*|FVK*SJ`=} p}wA103eMd`Ctba%7[D6
  * You can have multiple installations in one database if you give each
  * a unique prefix. Only numbers, letters, and underscores please!
  */
-$table_prefix = 'wp_';
+$table_prefix = 'wp_ewzv7y_'; // Modified by SecuPress.
+/** Commented by SecuPress. */ // $table_prefix = 'wp_';
 
 /**
  * For developers: WordPress debugging mode.

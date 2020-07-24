@@ -3,7 +3,7 @@
 Plugin Name: Page Builder by SiteOrigin
 Plugin URI: https://siteorigin.com/page-builder/
 Description: A drag and drop, responsive page builder that simplifies building your website.
-Version: 2.11.0
+Version: 2.11.1
 Author: SiteOrigin
 Author URI: https://siteorigin.com
 License: GPL3
@@ -11,12 +11,12 @@ License URI: http://www.gnu.org/licenses/gpl.html
 Donate link: http://siteorigin.com/page-builder/#donate
 */
 
-define( 'SITEORIGIN_PANELS_VERSION', '2.11.0' );
+define( 'SITEORIGIN_PANELS_VERSION', '2.11.1' );
 if ( ! defined( 'SITEORIGIN_PANELS_JS_SUFFIX' ) ) {
 	define( 'SITEORIGIN_PANELS_JS_SUFFIX', '.min' );
 }
 define( 'SITEORIGIN_PANELS_CSS_SUFFIX', '.min' );
-define( 'SITEORIGIN_PANELS_VERSION_SUFFIX', '-2110' );
+define( 'SITEORIGIN_PANELS_VERSION_SUFFIX', '-2111' );
 
 require_once plugin_dir_path( __FILE__ ) . 'inc/functions.php';
 
@@ -30,6 +30,7 @@ class SiteOrigin_Panels {
 
 		add_action( 'plugins_loaded', array( $this, 'version_check' ) );
 		add_action( 'plugins_loaded', array( $this, 'init' ) );
+		add_action( 'plugins_loaded', array( $this, 'init_compat' ), 100 );
 		add_action( 'admin_bar_menu', array( $this, 'admin_bar_menu' ), 100 );
 		
 		add_action('widgets_init', array( $this, 'widgets_init' ) );
@@ -191,10 +192,20 @@ class SiteOrigin_Panels {
 		if ( is_admin() ) {
 			SiteOrigin_Panels_Admin::single();
 		}
-		
+	}
+
+	/**
+	 * Loads Page Builder compatibility to allow other plugins/themes
+	 */
+	public function init_compat() {
 		// Compatibility with Widget Options plugin
-		if( class_exists('WP_Widget_Options') ) {
+		if ( class_exists( 'WP_Widget_Options' ) ) {
 			require_once plugin_dir_path( __FILE__ ) . 'compat/widget-options.php';
+		}
+
+		// Compatibility with AMP plugin
+		if ( is_admin() && function_exists( 'amp_bootstrap_plugin' ) ) {
+			require_once plugin_dir_path( __FILE__ ) . 'compat/amp.php';
 		}
 	}
 
