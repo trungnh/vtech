@@ -1,4 +1,20 @@
 == Changelog ==
+= 2.4.2 =
+* WooCommerce Version 4.3 tested
+* adds Mailchimp support form
+* moves navigation to WooCommerce nav as a sub-item
+* removes bubble h1 title element
+* log tab ui enhancements 
+* next button for setup wizard moved to bottom of page
+* required field ui enhancement 
+* adds a banner for setup completion in Wordpress
+* overview tab ui enhancements 
+* audience settings tab ux improvements
+* fix for cart non-numeric error
+* fix for woocommerce setup wizard redirect
+* fix for abandoned cart on product variations
+* fix for invalid session object
+* adds customer filter for on-hold orders
 = 2.4.1 =
 * adds scrolling frame for logs
 * fix for Coupon Deletion via WooCommerce API

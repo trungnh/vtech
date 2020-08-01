@@ -1,0 +1,3088 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Stable (latest release)\n"
+"POT-Creation-Date: 2020-03-20 13:51+0700\n"
+"PO-Revision-Date: 2018-02-08 00:01+0700\n"
+"Last-Translator: NinTechNet <contact@nintechnet.com>\n"
+"Language-Team: \n"
+"Language: fr_FR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2.1\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;esc_attr_e\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: /languages\n"
+
+#: index.php:38
+msgid "A lightweight, fast and powerful antivirus scanner for WordPress."
+msgstr ""
+
+#: index.php:63
+#, php-format
+msgid ""
+"NinjaScanner requires WordPress 3.3 or greater but your current version is "
+"%s."
+msgstr ""
+
+#: index.php:70
+#, php-format
+msgid ""
+"NinjaScanner requires PHP 5.3 or greater but your current version is %s."
+msgstr ""
+
+#: index.php:76
+msgid ""
+"Your PHP configuration is missing the \"ZipArchive\" class. It is not "
+"possible to run NinjaScanner."
+msgstr ""
+
+#: index.php:147
+#, php-format
+msgid "Missing or incorrect parameter: %s"
+msgstr ""
+
+#: index.php:156
+#, php-format
+msgid "File does not exist: %s"
+msgstr ""
+
+#: index.php:163
+#, php-format
+msgid "File cannot be read: %s"
+msgstr ""
+
+#: index.php:197 index.php:230 index.php:258 index.php:286 index.php:586
+#: index.php:809 index.php:829
+msgid "Error: Security nonces do not match. Reload the page and try again."
+msgstr ""
+
+#: index.php:214
+msgid "Error: Cannot quarantine the file."
+msgstr ""
+
+#: index.php:265
+msgid "Error: File does not exist."
+msgstr ""
+
+#: index.php:291 index.php:482
+msgid "Please enter your API key."
+msgstr ""
+
+#: index.php:327
+#, php-format
+msgid "Error: %s"
+msgstr ""
+
+#: index.php:338
+msgid "Unknown error."
+msgstr ""
+
+#: index.php:355
+msgid "A scan is running..."
+msgstr ""
+
+#: index.php:361 index.php:547 lib/report_html.php:938
+msgid "Settings"
+msgstr ""
+
+#: index.php:363
+msgid "Rate it!"
+msgstr ""
+
+#: index.php:446 index.php:468
+msgid "Cancel the scanning process?"
+msgstr ""
+
+#: index.php:448
+msgid "Step"
+msgstr ""
+
+#: index.php:450 lib/tab_summary.php:147
+msgid "Please wait..."
+msgstr ""
+
+#: index.php:452
+msgid "An unknown error occurred:"
+msgstr ""
+
+#: index.php:454
+msgid "The HTTP server returned the following error:"
+msgstr ""
+
+#: index.php:456
+msgid ""
+"If your website or <code>/wp-admin/</code> folder is password-protected "
+"using HTTP basic authentication, you can enter your username and password in "
+"the \"Settings > Advanced Settings > Nerds Settings\" section."
+msgstr ""
+
+#: index.php:458
+msgid "No problem detected. To refresh the list, run a new scan."
+msgstr ""
+
+#: index.php:460
+msgid ""
+"Disabling this option could slow down the scanning process on low resource "
+"servers. Continue?"
+msgstr ""
+
+#: index.php:462
+msgid ""
+"Enabling this option could slow down the scanning process on low resource "
+"servers. Continue?"
+msgstr ""
+
+#: index.php:464
+msgid ""
+"Enable this option only if the scan hangs or does not terminate. Continue?"
+msgstr ""
+
+#: index.php:466
+msgid "All fields will be restored to their default values. Continue?"
+msgstr ""
+
+#: index.php:470
+msgid "No records were found that match the specified search criteria."
+msgstr ""
+
+#: index.php:472
+msgid "Run the garbage collector now to clear all cached files?"
+msgstr ""
+
+#: index.php:474
+msgid "Unknown action."
+msgstr ""
+
+#: index.php:476
+msgid "No file selected."
+msgstr ""
+
+#: index.php:478
+msgid "Permanently delete the selected files?"
+msgstr ""
+
+#: index.php:480
+msgid "Restore the selected files to their original folder?"
+msgstr ""
+
+#: index.php:484
+msgid "Your API key is valid."
+msgstr ""
+
+#: index.php:545
+msgid "Summary"
+msgstr ""
+
+#: index.php:549 lib/help.php:261 lib/help.php:266
+msgid "Quarantine"
+msgstr ""
+
+#: index.php:551 lib/help.php:274
+msgid "Ignored"
+msgstr ""
+
+#: index.php:559
+msgid "Log"
+msgstr ""
+
+#: index.php:564
+msgid "Premium"
+msgstr ""
+
+#: index.php:567
+msgid "About"
+msgstr ""
+
+#: index.php:569
+msgid "Click on the above \"Help\" tab for help."
+msgstr ""
+
+#: index.php:729
+msgid ""
+"Fatal error, aborting. More information may be available in the scanner Log."
+msgstr ""
+
+#: index.php:743 index.php:1240
+#, php-format
+msgid "[NinjaScanner] SCAN ERROR (%s)"
+msgstr ""
+
+#: index.php:746 index.php:1243 index.php:1265
+msgid "Hi,"
+msgstr ""
+
+#: index.php:747 index.php:1244 index.php:1266
+msgid "This is the NinjaScanner scan report."
+msgstr ""
+
+#: index.php:749 index.php:1246
+#, php-format
+msgid "A fatal error occurred while attempting to generate the report: \"%s\""
+msgstr ""
+
+#: index.php:752 index.php:1249
+msgid "More details may be available in the scanner log."
+msgstr ""
+
+#: index.php:754 index.php:1235
+msgid "Help Desk (Premium customers only):"
+msgstr ""
+
+#: index.php:775 lib/cli.php:51 lib/cli.php:144
+msgid "A scanning process is running. Please wait or stop it."
+msgstr ""
+
+#: index.php:789 lib/cli.php:58
+msgid "Scheduling a scanning process"
+msgstr ""
+
+#: index.php:856
+#, php-format
+msgid "Error: The website front-end returned: HTTP %s %s."
+msgstr ""
+
+#: index.php:903 index.php:935
+#, php-format
+msgid "Fatal error: scheduled task %s failed (%s). Aborting"
+msgstr ""
+
+#: index.php:962
+#, php-format
+msgid ""
+"Fatal error: scheduled task failed (#%s). More details may be available in "
+"your server HTTP log. Aborting"
+msgstr ""
+
+#: index.php:1038
+msgid "Initializing"
+msgstr ""
+
+#: index.php:1089
+#, php-format
+msgid "Error: E_ERROR (%s - %s)"
+msgstr ""
+
+#: index.php:1141
+#, php-format
+msgid ""
+"Total time: %s seconds. Max memory allocated by system: %s bytes. Max memory "
+"used by WordPress: %s bytes (NinjaScanner: %s bytes)."
+msgstr ""
+
+#: index.php:1148
+msgid "Exiting scanning process"
+msgstr ""
+
+#: index.php:1162
+msgid ""
+"Fatal error: Number of retries reached NSCAN_MAX_RETRIES. Consider "
+"increasing its value or adjusting NinjaScanner configuration. Aborting"
+msgstr ""
+
+#: index.php:1179
+#, php-format
+msgid "Incremental scan is enabled, restarting from step %s"
+msgstr ""
+
+#: index.php:1184
+msgid "Incremental scan is DISABLED, starting over from step 1"
+msgstr ""
+
+#: index.php:1193
+msgid "Saving current anti-malware buffer to temporary file"
+msgstr ""
+
+#: index.php:1210 lib/cli.php:97
+msgid "Cancelling scanning process"
+msgstr ""
+
+#: index.php:1258
+msgid "Sending email report"
+msgstr ""
+
+#: index.php:1262
+#, php-format
+msgid "[NinjaScanner] Scan report for %s"
+msgstr ""
+
+#: index.php:1271
+msgid ""
+"Due to the large number of lines, it was attached to this email for your "
+"convenience."
+msgstr ""
+
+#: index.php:1276
+msgid ""
+"A more detailed report can be viewed from your WordPress Dashboard by "
+"clicking on \"NinjaScanner > Summary > View Scan Report\"."
+msgstr ""
+
+#: index.php:1341
+msgid "Error: You do not have a Premium license."
+msgstr ""
+
+#: index.php:1368
+msgid ""
+"An unknown error occurred while connecting to NinjaScanner API server. "
+"Please try again in a few minutes."
+msgstr ""
+
+#: index.php:1379
+#, php-format
+msgid "Error: Your license is not valid (#%s)."
+msgstr ""
+
+#: index.php:1385
+msgid "You have a valid license"
+msgstr ""
+
+#: index.php:1391
+#, php-format
+msgid "HTTP Error (%s): Cannot connect to the API server. Try again later"
+msgstr ""
+
+#: index.php:1399
+#, php-format
+msgid "Error (%s): Cannot connect to the API server. Try again later"
+msgstr ""
+
+#: index.php:1417 lib/cli.php:222
+msgid "Your license has been accepted and saved."
+msgstr ""
+
+#: index.php:1482
+msgid "Could not get lock, exiting"
+msgstr ""
+
+#: lib/ajax_all.php:46
+msgid "Scan in progress"
+msgstr ""
+
+#: lib/ajax_all.php:77
+msgid "Scan terminated"
+msgstr ""
+
+#: lib/ajax_all.php:86
+msgid "Scan error."
+msgstr ""
+
+#: lib/cli.php:25
+msgid ""
+"Error: Your must have a valid Premium license to perform this operation."
+msgstr ""
+
+#: lib/cli.php:31
+msgid "Warning: NinjaScanner integration with WP-CLI is disabled."
+msgstr ""
+
+#: lib/cli.php:62
+msgid ""
+"Cannot start the scan! More details may be available in the scanner log."
+msgstr ""
+
+#: lib/cli.php:68
+msgid "A scanning process has started."
+msgstr ""
+
+#: lib/cli.php:73 lib/tab_summary.php:22
+#, php-format
+msgid "A report will be sent to %s as soon as the scan has finished."
+msgstr ""
+
+#: lib/cli.php:90
+msgid "No scan is running!"
+msgstr ""
+
+#: lib/cli.php:104
+#, php-format
+msgid "Cannot delete the lock file (%s)."
+msgstr ""
+
+#: lib/cli.php:105
+msgid "Is your filesystem read-only?"
+msgstr ""
+
+#: lib/cli.php:113
+msgid "The scanning process was cancelled."
+msgstr ""
+
+#: lib/cli.php:119
+#, php-format
+msgid "Cannot find the lock file (%s)."
+msgstr ""
+
+#: lib/cli.php:120
+msgid "Is NinjaScanner running?"
+msgstr ""
+
+#: lib/cli.php:172 lib/tab_log.php:71
+msgid "NinjaScanner's log is empty."
+msgstr ""
+
+#: lib/cli.php:180 lib/report_html.php:1092
+msgid "Error"
+msgstr ""
+
+#: lib/cli.php:181
+msgid "Warning"
+msgstr ""
+
+#: lib/cli.php:188
+#, php-format
+msgid "Viewing %s"
+msgstr ""
+
+#: lib/cli.php:204
+msgid "Enter your license:"
+msgstr ""
+
+#: lib/cli.php:238
+msgid "NinjaScanner is currently running."
+msgstr ""
+
+#: lib/cli.php:240
+msgid "NinjaScanner is not running."
+msgstr ""
+
+#: lib/cli.php:253 lib/help.php:304 lib/tab_premium.php:78
+msgid "Available commands:"
+msgstr ""
+
+#: lib/cli.php:254 lib/help.php:305 lib/tab_premium.php:79
+msgid "Display this help screen"
+msgstr ""
+
+#: lib/cli.php:255 lib/help.php:306 lib/tab_premium.php:80
+msgid "Start a scan"
+msgstr ""
+
+#: lib/cli.php:256 lib/help.php:307 lib/tab_premium.php:81
+msgid "Stop the scanning process"
+msgstr ""
+
+#: lib/cli.php:257 lib/help.php:308 lib/tab_premium.php:82
+msgid "Show scan status"
+msgstr ""
+
+#: lib/cli.php:258 lib/help.php:309 lib/tab_premium.php:83
+msgid "View the last scan report"
+msgstr ""
+
+#: lib/cli.php:259 lib/help.php:310 lib/tab_premium.php:84
+msgid "View the debugging log"
+msgstr ""
+
+#: lib/cli.php:260 lib/help.php:311 lib/tab_premium.php:85
+msgid "Enter your Premium license key"
+msgstr ""
+
+#: lib/file_compare.php:18 lib/file_restore.php:18
+msgid "Error: Missing NSCAN_SNAPSHOT file."
+msgstr ""
+
+#: lib/file_compare.php:28 lib/file_restore.php:29
+msgid "Error: Snapshot is corrupted (abspath)."
+msgstr ""
+
+#: lib/file_compare.php:32 lib/file_restore.php:34
+msgid "Error: No match found (local file)."
+msgstr ""
+
+#: lib/file_compare.php:146 lib/file_restore.php:147
+msgid "Error: No match found (file type)."
+msgstr ""
+
+#: lib/file_compare.php:180
+msgid ""
+"Those files are identical but have different line endings (LF vs CRLF): "
+"different line endings will always trigger a warning from the file integrity "
+"scanner because their checksums will not match."
+msgstr ""
+
+#: lib/file_compare.php:183
+msgid "No difference found: the local file matches the original one."
+msgstr ""
+
+#: lib/file_compare.php:227 lib/file_compare.php:234
+#, php-format
+msgid "Error: Cannot download the original file from wordpress.org (%s)."
+msgstr ""
+
+#: lib/file_compare.php:270
+msgid "File:"
+msgstr ""
+
+#: lib/file_compare.php:278
+msgid "Those files have different line endings (LF vs CRLF)."
+msgstr ""
+
+#: lib/file_quarantine.php:27
+msgid "Error: This file is not writable and therefore it cannot be moved."
+msgstr ""
+
+#: lib/file_quarantine.php:48
+#, php-format
+msgid ""
+"NinjaScanner detected that removing this file seemed to crash your blog. %s"
+msgstr ""
+
+#: lib/file_quarantine.php:50
+msgid ""
+"If you want to ignore this message and quarantine the file anyway, please "
+"disable the \"Sandbox\" option from the \"Settings > Advanced Users Settings "
+"> Nerds Settings\" page."
+msgstr ""
+
+#: lib/file_quarantine.php:74
+#, php-format
+msgid "The website back-end returned: HTTP %s %s."
+msgstr ""
+
+#: lib/file_quarantine.php:87
+msgid "The website back-end returned: Cannot find the placeholder in the page."
+msgstr ""
+
+#: lib/file_quarantine.php:95
+#, php-format
+msgid "The website back-end returned a fatal error: %s."
+msgstr ""
+
+#: lib/file_quarantine.php:118
+#, php-format
+msgid "The website front-end returned: HTTP %s %s."
+msgstr ""
+
+#: lib/file_quarantine.php:129
+msgid "The website front-end did not return the expected page."
+msgstr ""
+
+#: lib/file_quarantine.php:138
+#, php-format
+msgid "The website front-end returned a fatal error: %s."
+msgstr ""
+
+#: lib/file_restore.php:154
+msgid "Error: Content is empty."
+msgstr ""
+
+#: lib/file_restore.php:160
+msgid "Error: The destination folder is not writable."
+msgstr ""
+
+#: lib/file_restore.php:165
+msgid "Warning: The operation seems to have failed."
+msgstr ""
+
+#: lib/file_restore.php:223 lib/file_restore.php:228
+msgid "Error: Cannot download the original file from wordpress.org."
+msgstr ""
+
+#: lib/file_view.php:24
+msgid "File is empty."
+msgstr ""
+
+#: lib/file_view.php:31
+#, php-format
+msgid "Cannot open file: %s"
+msgstr ""
+
+#: lib/file_view.php:66
+msgid "Viewing:"
+msgstr ""
+
+#: lib/file_view.php:76
+#, php-format
+msgid "Suspicious code is %shighlighted%s."
+msgstr ""
+
+#: lib/file_view.php:163
+msgid "This is a binary file and it cannot be viewed."
+msgstr ""
+
+#: lib/file_view.php:172
+msgid "This is a directory and it cannot be viewed."
+msgstr ""
+
+#: lib/gc.php:31 lib/gc.php:36 lib/gc.php:48
+msgid "Delaying garbage collector for 10 minutes, a scan is running"
+msgstr ""
+
+#: lib/gc.php:40
+#, php-format
+msgid "Starting Garbage Collector (%s)"
+msgstr ""
+
+#: lib/gc.php:44
+msgid "Fatal error: NSCAN_CACHEDIR does not exist. Aborting"
+msgstr ""
+
+#: lib/gc.php:60
+#, php-format
+msgid "Stopping Garbage Collector. Total files and folders deleted: %s"
+msgstr ""
+
+#: lib/gc.php:95
+#, php-format
+msgid "Keeping file %s"
+msgstr ""
+
+#: lib/gc.php:98
+#, php-format
+msgid "Deleting file %s"
+msgstr ""
+
+#: lib/gc.php:106
+#, php-format
+msgid "Deleting folder %s"
+msgstr ""
+
+#: lib/help.php:22 lib/tab_settings.php:96 lib/tab_summary.php:59
+msgid "Premium only"
+msgstr ""
+
+#: lib/help.php:29 lib/help.php:34 lib/tab_settings.php:99
+msgid "Basic Settings"
+msgstr ""
+
+#: lib/help.php:36 lib/report_text.php:71 lib/tab_settings.php:102
+msgid "Blog directory"
+msgstr ""
+
+#: lib/help.php:38
+msgid ""
+"Displays the WordPress root folder (a.k.a ABSPATH) where the scan will take "
+"place. It cannot be changed."
+msgstr ""
+
+#: lib/help.php:41 lib/tab_settings.php:117
+msgid "File size"
+msgstr ""
+
+#: lib/help.php:43
+msgid ""
+"Allows you to scan only files smaller than a certain size. To scan any file "
+"regardless of its size, set this value to zero."
+msgstr ""
+
+#: lib/help.php:46 lib/tab_settings.php:139
+msgid "Ignore file extensions"
+msgstr ""
+
+#: lib/help.php:48
+msgid ""
+"Allows you to exclude files depending on their extension (case-insensitive)."
+msgstr ""
+
+#: lib/help.php:51
+msgid ""
+"Those two options do not apply to the File Integrity Checker (see \"Advanced "
+"Settings\")."
+msgstr ""
+
+#: lib/help.php:53 lib/tab_settings.php:166
+msgid "Ignore files/folders"
+msgstr ""
+
+#: lib/help.php:55
+msgid ""
+"Allows you to exclude specific files or folders. It can be full or partial "
+"case-sensitive string (<code>/foo/bar.php</code> or simply <code>foo</code>)."
+msgstr ""
+
+#: lib/help.php:58 lib/tab_settings.php:171
+msgid ""
+"Apply the exclusion list to the file integrity checker (themes and plugins)"
+msgstr ""
+
+#: lib/help.php:58
+msgid ""
+"This option will apply the exclusion list to the file integrity checker when "
+"comparing plugin or theme files to their original package. It can be useful, "
+"for instance, if you have themes or plugins that create temporary or cached "
+"files inside their own installation folder, in order to exclude them from "
+"the file integrity checker."
+msgstr ""
+
+#: lib/help.php:61 lib/tab_settings.php:188
+msgid "Send the scan report to"
+msgstr ""
+
+#: lib/help.php:63
+msgid ""
+"This feature is optional. You can send a copy of the scan report to one or "
+"more email addresses."
+msgstr ""
+
+#: lib/help.php:66 lib/tab_settings.php:208
+msgid "Run a scheduled scan"
+msgstr ""
+
+#: lib/help.php:68
+msgid ""
+"Allows you to run a scheduled scan hourly, twice daily or daily. The next "
+"scheduled scan date and time, if any, will be displayed in the \"Summary\" "
+"page."
+msgstr ""
+
+#: lib/help.php:71 lib/help.php:287 lib/help.php:292 lib/tab_settings.php:225
+msgid "WP-CLI"
+msgstr ""
+
+#: lib/help.php:73
+msgid ""
+"Enable WP-CLI integration. See the \"WP-CLI\" help menu for more details."
+msgstr ""
+
+#: lib/help.php:81
+msgid "Advanced Settings"
+msgstr ""
+
+#: lib/help.php:86 lib/tab_settings.php:236 lib/tab_settings.php:614
+msgid "Advanced Users Settings"
+msgstr ""
+
+#: lib/help.php:88 lib/tab_settings.php:261
+msgid "File integrity checker"
+msgstr ""
+
+#: lib/help.php:90 lib/tab_settings.php:263
+msgid "Always verify NinjaScanner's files integrity before starting a scan."
+msgstr ""
+
+#: lib/help.php:92
+msgid ""
+"When this option is enabled, NinjaScanner will check if any of its files "
+"were tampered with, right before starting the scanning process."
+msgstr ""
+
+#: lib/help.php:94 lib/tab_settings.php:264
+msgid "Compare WordPress core files to their original package."
+msgstr ""
+
+#: lib/help.php:96
+msgid ""
+"NinjaScanner will compare all core files from your installation to the "
+"original ones."
+msgstr ""
+
+#: lib/help.php:98 lib/tab_settings.php:266
+msgid "Compare plugin files to their original package."
+msgstr ""
+
+#: lib/help.php:100 lib/tab_settings.php:267
+msgid "Compare theme files to their original package."
+msgstr ""
+
+#: lib/help.php:102
+msgid ""
+"NinjaScanner will compare the plugin and themes files from your installation "
+"to the original ones."
+msgstr ""
+
+#: lib/help.php:102 lib/tab_settings.php:269
+#, php-format
+msgid ""
+"By default, only themes and plugins available in the wordpress.org repo can "
+"be checked that way. If you want to include premium plugins or themes too, "
+"<a href=\"%s\">consult our blog</a>."
+msgstr ""
+
+#: lib/help.php:106 lib/report_html.php:648 lib/report_html.php:672
+#: lib/report_text.php:544 lib/tab_settings.php:273
+msgid "File snapshot"
+msgstr ""
+
+#: lib/help.php:108
+msgid ""
+"NinjaScanner will compare all files with the previous scan and will report "
+"if any of them were changed, added or deleted."
+msgstr ""
+
+#: lib/help.php:110 lib/tab_settings.php:279
+msgid "Database snapshot"
+msgstr ""
+
+#: lib/help.php:112
+msgid ""
+"NinjaScanner will compare all posts and pages in the database with the "
+"previous scan and will report if any of them were changed, added or deleted."
+msgstr ""
+
+#: lib/help.php:114 lib/tab_settings.php:317
+msgid "Anti-malware signatures"
+msgstr ""
+
+#: lib/help.php:116
+msgid ""
+"This option lets you scan your files for potential malware and virus using "
+"the built-in signatures."
+msgstr ""
+
+#: lib/help.php:116 lib/tab_settings.php:321
+#, php-format
+msgid ""
+"<a href=\"%s\">Consult our blog</a> if you want to add your own signatures."
+msgstr ""
+
+#: lib/help.php:118 lib/report_html.php:557 lib/report_text.php:479
+#: lib/tab_settings.php:334
+msgid "Google Safe Browsing"
+msgstr ""
+
+#: lib/help.php:120
+msgid ""
+"This option lets you check if your website is identified as having malware "
+"or exhibiting phishing activity by the Google Safe Browsing API."
+msgstr ""
+
+#: lib/help.php:120
+#, php-format
+msgid ""
+"You will need <a href=\"%s\">a free Google API key</a> in order to use this "
+"feature."
+msgstr ""
+
+#: lib/help.php:123 lib/tab_settings.php:385
+msgid "Incremental scan"
+msgstr ""
+
+#: lib/help.php:125
+msgid "Allow incremental scan"
+msgstr ""
+
+#: lib/help.php:127
+msgid ""
+"This option will restart the scan where it left off if it was interrupted (e."
+"g. time-out, fatal error etc)."
+msgstr ""
+
+#: lib/help.php:130 lib/tab_settings.php:389
+msgid "Attempt to force-restart the scan using an alternate method"
+msgstr ""
+
+#: lib/help.php:132
+msgid ""
+"Because some hosts may kill PHP scripts if they take too long to run, this "
+"option will attempt to force-restart the scan. Enable it only if the scan "
+"hangs or does not seem to terminate."
+msgstr ""
+
+#: lib/help.php:137 lib/report_html.php:499 lib/report_text.php:369
+#: lib/tab_settings.php:365
+msgid "Files and folders"
+msgstr ""
+
+#: lib/help.php:139 lib/tab_settings.php:367
+msgid "Do not follow symbolic links."
+msgstr ""
+
+#: lib/help.php:141
+msgid "By default, NinjaScanner will not follow symbolic links."
+msgstr ""
+
+#: lib/help.php:143 lib/tab_settings.php:368
+msgid "Warn if symbolic links."
+msgstr ""
+
+#: lib/help.php:145
+msgid ""
+"The scanner will warn you if it has found symbolic links in your WordPress "
+"installation."
+msgstr ""
+
+#: lib/help.php:147 lib/tab_settings.php:369
+msgid "Warn if executable files (MZ/PE/NE and ELF formats)."
+msgstr ""
+
+#: lib/help.php:149
+msgid ""
+"The scanner will warn you if it has found executable files in your WordPress "
+"installation."
+msgstr ""
+
+#: lib/help.php:151 lib/tab_settings.php:370
+msgid "Warn if hidden PHP scripts."
+msgstr ""
+
+#: lib/help.php:153
+msgid ""
+"The scanner will warn you if it has found hidden PHP scripts in your "
+"WordPress installation."
+msgstr ""
+
+#: lib/help.php:155 lib/tab_settings.php:371
+msgid "Warn if unreadable files of folders."
+msgstr ""
+
+#: lib/help.php:157
+msgid ""
+"The scanner will warn you if it has found unreadable files or folders in "
+"your WordPress installation."
+msgstr ""
+
+#: lib/help.php:161 lib/tab_settings.php:402
+msgid "Scanning process"
+msgstr ""
+
+#: lib/help.php:162
+msgid ""
+"This set of option lets you manage how NinjaScanner will fork its scanning "
+"process that will run in the background."
+msgstr ""
+
+#: lib/help.php:162 lib/tab_settings.php:406
+msgid ""
+"If the scanner does not start and throws an error, select a different fork "
+"method."
+msgstr ""
+
+#: lib/help.php:164 lib/tab_settings.php:404
+msgid "Fork process using WordPress built-in WP-CRON."
+msgstr ""
+
+#: lib/help.php:166
+msgid ""
+"This option will work even if you disabled WP-CRON with "
+"<code>DISABLE_WP_CRON</code>."
+msgstr ""
+
+#: lib/help.php:168 lib/tab_settings.php:405
+msgid "Fork process using WordPress built-in Ajax Process Execution."
+msgstr ""
+
+#: lib/help.php:170
+msgid "This is the default value and should work on most systems."
+msgstr ""
+
+#: lib/help.php:175 lib/tab_settings.php:427
+msgid "Integration"
+msgstr ""
+
+#: lib/help.php:177 lib/tab_settings.php:429
+msgid "Display the status of the running scan in the Toolbar."
+msgstr ""
+
+#: lib/help.php:179
+msgid "NinjaScanner will display the running scan status in the Toolbar."
+msgstr ""
+
+#: lib/help.php:181 lib/tab_settings.php:430
+msgid "Integrate NinjaScanner with NinjaFirewall."
+msgstr ""
+
+#: lib/help.php:183
+#, php-format
+msgid ""
+"If you are running our <a href=\"%s\">NinjaFirewall (WP or WP+ Edition)</a> "
+"web application firewall, you can integrate the NinjaScanner menu into "
+"NinjaFirewall. You could access it by clicking on \"NinjaFirewall > "
+"NinjaScanner\":"
+msgstr ""
+
+#: lib/help.php:185
+msgid "Note that you need at least NinjaFirewall version v3.6."
+msgstr ""
+
+#: lib/help.php:190 lib/tab_settings.php:462
+msgid "Scan report"
+msgstr ""
+
+#: lib/help.php:192
+msgid "Row action links."
+msgstr ""
+
+#: lib/help.php:194
+msgid ""
+"Those links are displayed below each file in the scan report (e.g., \"View "
+"file\", \"File Info\" etc)."
+msgstr ""
+
+#: lib/help.php:196
+msgid "Maximum number of visible rows in table."
+msgstr ""
+
+#: lib/help.php:198
+msgid "This option will control the height of each table."
+msgstr ""
+
+#: lib/help.php:200
+msgid "File names."
+msgstr ""
+
+#: lib/help.php:202
+msgid ""
+"This option lets you choose whether you want to see the absolute or relative "
+"path of a file. Note that it applies to the  quarantined and ignored files "
+"lists as well."
+msgstr ""
+
+#: lib/help.php:212 lib/help.php:217 lib/tab_settings.php:486
+#: lib/tab_settings.php:616
+msgid "Nerds Settings"
+msgstr ""
+
+#: lib/help.php:219 lib/tab_settings.php:496
+msgid "HTTP basic authentication (optional)"
+msgstr ""
+
+#: lib/help.php:221
+msgid ""
+"If your site is password-protected using HTTP basic authentication, you can "
+"use this option to enter your username and password."
+msgstr ""
+
+#: lib/help.php:223 lib/tab_settings.php:523
+msgid "File integrity checksum"
+msgstr ""
+
+#: lib/help.php:225
+msgid "MD5, SHA-1, SHA-256."
+msgstr ""
+
+#: lib/help.php:227
+msgid ""
+"This options lets you select which algorithm the scanner file integrity "
+"checker should use when comparing files: MD5 (faster but less secure), SHA-1 "
+"or SHA-256 (slower but more secure)."
+msgstr ""
+
+#: lib/help.php:229 lib/tab_settings.php:529
+msgid ""
+"Do not extract ZIP archives but use the CRC-32B checksum from the central "
+"directory file header."
+msgstr ""
+
+#: lib/help.php:231
+msgid ""
+"This option lets you compare local files to ZIP-archived files without "
+"extracting the archive, by looking at their checksum found in the central "
+"directory file header. It is very fast but much less secure because it makes "
+"use of the CRC-32B algorithm."
+msgstr ""
+
+#: lib/help.php:232
+msgid "This option is compatible with 64-bit operating systems only."
+msgstr ""
+
+#: lib/help.php:236
+msgid "Note:"
+msgstr ""
+
+#: lib/help.php:237
+msgid ""
+"If you want the highest level of security and if your server is powerful "
+"enough, consider using SHA-256 only and disabling the CRC-32B checksum "
+"option."
+msgstr ""
+
+#: lib/help.php:237
+msgid ""
+"If your server is too slow or has very limited resources, try using less "
+"secure algorithms for faster processing."
+msgstr ""
+
+#: lib/help.php:239 lib/tab_settings.php:543
+msgid "Debugging"
+msgstr ""
+
+#: lib/help.php:241
+msgid ""
+"This option will display the \"Log\" tab which lets you access the scanner "
+"debugging log."
+msgstr ""
+
+#: lib/help.php:243 lib/tab_settings.php:549
+msgid "Diagnostics"
+msgstr ""
+
+#: lib/help.php:245
+msgid ""
+"If the scanning process does not work or start, this feature may help you to "
+"diagnose the problem."
+msgstr ""
+
+#: lib/help.php:247 lib/tab_settings.php:564
+msgid "Sandbox"
+msgstr ""
+
+#: lib/help.php:249
+msgid ""
+"When moving a file to the quarantine folder, NinjaScanner can use a testing "
+"environment (a.k.a. sandbox) to make sure that this action does not crash "
+"your blog with a fatal error. If it does, it will warn you and will not "
+"quarantine the file. Disabling this option will void the testing environment "
+"(not recommended)."
+msgstr ""
+
+#: lib/help.php:251 lib/tab_settings.php:579
+msgid "Run the garbage collector"
+msgstr ""
+
+#: lib/help.php:253
+msgid ""
+"This option lets you setup NinjaScanner's built-in garbage collector "
+"frequency. It is used to clean-up the cache folder from temporary files "
+"created or downloaded during a scan."
+msgstr ""
+
+#: lib/help.php:267
+msgid ""
+"All files moved to the quarantine folder can be either permanently deleted "
+"or restored to their original folder. You can select one or multiple files."
+msgstr ""
+
+#: lib/help.php:267
+msgid ""
+"Note that the Garbage Collector will not flush the quarantine folder, "
+"therefore quarantined files will remain in the folder until you restore or "
+"delete them."
+msgstr ""
+
+#: lib/help.php:279
+msgid "Ignored files list"
+msgstr ""
+
+#: lib/help.php:280
+msgid ""
+"All files moved to the ignored files list will remain there until they are "
+"modified or manually removed from the list."
+msgstr ""
+
+#: lib/help.php:294
+#, php-format
+msgid ""
+"NinjaScanner can nicely integrate with <a href=\"%s\">WP-CLI</a>, using the "
+"<code>ninjascanner</code> command."
+msgstr ""
+
+#: lib/help.php:296
+msgid ""
+"You can use it to start or stop a scanning process, view its status, its "
+"report or log:"
+msgstr ""
+
+#: lib/help.php:313
+msgid ""
+"Premium users can also enter their license from WP-CLI, without having to "
+"log in to their Dashboard."
+msgstr ""
+
+#: lib/help.php:321 lib/help.php:325
+msgid "Troubleshooting"
+msgstr ""
+
+#: lib/help.php:327
+#, php-format
+msgid "Please consult this article: %s."
+msgstr ""
+
+#: lib/report_html.php:28 lib/report_text.php:42
+msgid "Cannot find the snapshot file, scan report cannot be created."
+msgstr ""
+
+#: lib/report_html.php:38 lib/report_text.php:54
+msgid ""
+"Snapshot seems corrupted (missing 'abspath' field), scan report cannot be "
+"created."
+msgstr ""
+
+#: lib/report_html.php:48
+#, php-format
+msgid ""
+"This report was created for WordPress %s, but your current version is %s. If "
+"you upgraded WordPress lately, don't forget to run a new scan."
+msgstr ""
+
+#: lib/report_html.php:59
+msgid ""
+"This report was created with a different version of NinjaScanner. Don't "
+"forget to run a new scan to make sure it is up to date."
+msgstr ""
+
+#: lib/report_html.php:82 lib/report_html.php:149 lib/report_html.php:216
+#: lib/report_html.php:331 lib/report_html.php:376 lib/report_html.php:447
+#: lib/report_html.php:493 lib/report_html.php:551 lib/report_html.php:592
+#: lib/report_html.php:642 lib/report_html.php:666 lib/report_html.php:726
+#: lib/report_html.php:749 lib/report_html.php:805 lib/report_html.php:828
+#: lib/report_html.php:898 lib/report_html.php:932 lib/report_html.php:975
+#: lib/report_html.php:1008 lib/report_html.php:1040
+msgid "Toggle Shade"
+msgstr ""
+
+#: lib/report_html.php:88
+msgid "NinjaScanner report"
+msgstr ""
+
+#: lib/report_html.php:95 lib/report_text.php:69
+msgid "Date"
+msgstr ""
+
+#: lib/report_html.php:99 lib/report_text.php:70
+msgid "Home URL"
+msgstr ""
+
+#: lib/report_html.php:103
+msgid "Blog folder"
+msgstr ""
+
+#: lib/report_html.php:107 lib/report_text.php:72
+msgid "WordPress Version"
+msgstr ""
+
+#: lib/report_html.php:111 lib/report_text.php:73
+msgid "Total files"
+msgstr ""
+
+#: lib/report_html.php:155
+msgid "WordPress core files"
+msgstr ""
+
+#: lib/report_html.php:222 lib/report_text.php:146
+msgid "Plugin files integrity"
+msgstr ""
+
+#: lib/report_html.php:337
+#, php-format
+msgid "Plugin:  %s"
+msgstr ""
+
+#: lib/report_html.php:382 lib/report_text.php:274
+msgid "Theme files integrity"
+msgstr ""
+
+#: lib/report_html.php:453
+#, php-format
+msgid "Theme:  %s"
+msgstr ""
+
+#: lib/report_html.php:598 lib/report_text.php:509
+msgid "Anti-malware"
+msgstr ""
+
+#: lib/report_html.php:732 lib/report_html.php:755 lib/report_text.php:622
+msgid "Database snapshot (posts)"
+msgstr ""
+
+#: lib/report_html.php:811 lib/report_html.php:834 lib/report_text.php:695
+msgid "Database snapshot (pages)"
+msgstr ""
+
+#: lib/report_html.php:904
+msgid "SSH key"
+msgstr ""
+
+#: lib/report_html.php:923
+#, php-format
+msgid ""
+"Although <a href=\"%s\">user registration</a> is disabled, the \"New User "
+"Default Role\" option is set to \"administrator\"."
+msgstr ""
+
+#: lib/report_html.php:927
+#, php-format
+msgid ""
+"<a href=\"%s\">User registration</a> is enabled and the \"New User Default "
+"Role\" option is set to \"administrator\"."
+msgstr ""
+
+#: lib/report_html.php:947
+msgid "User registration"
+msgstr ""
+
+#: lib/report_html.php:961
+#, php-format
+msgid ""
+"NinjaScanner has detected that the following user roles have been given <a "
+"href=\"%s\">capabilities</a> that, by default, are only assigned to an "
+"administrator:"
+msgstr ""
+
+#: lib/report_html.php:981
+msgid "Users"
+msgstr ""
+
+#: lib/report_html.php:990
+msgid "User roles"
+msgstr ""
+
+#: lib/report_html.php:1005
+msgid "No firewall detected."
+msgstr ""
+
+#: lib/report_html.php:1006
+#, php-format
+msgid ""
+"Consider installing a Web Application Firewall such as <a href=\"%s"
+"\">NinjaFirewall (WP Edition)</a> to make sure that your site is well "
+"protected against web attacks."
+msgstr ""
+
+#: lib/report_html.php:1014 lib/report_html.php:1023
+msgid "Web Application Firewall"
+msgstr ""
+
+#: lib/report_html.php:1046
+msgid "Various checks"
+msgstr ""
+
+#: lib/report_html.php:1096
+#, php-format
+msgid "Warning, a critical error occurred. This test was cancelled (#%s)."
+msgstr ""
+
+#: lib/report_html.php:1117 lib/report_html.php:1119
+msgid "This test was skipped."
+msgstr ""
+
+#: lib/report_html.php:1137 lib/report_html.php:1139
+msgid "No problem detected."
+msgstr ""
+
+#: lib/report_html.php:1238
+msgid "Display info about this post."
+msgstr ""
+
+#: lib/report_html.php:1239
+msgid "Display info about this page."
+msgstr ""
+
+#: lib/report_html.php:1241
+msgid "Post info"
+msgstr ""
+
+#: lib/report_html.php:1242
+msgid "Page info"
+msgstr ""
+
+#: lib/report_html.php:1244
+msgid "View post"
+msgstr ""
+
+#: lib/report_html.php:1245
+msgid "View page"
+msgstr ""
+
+#: lib/report_html.php:1247
+msgid "ID:"
+msgstr ""
+
+#: lib/report_html.php:1248
+msgid "Type:"
+msgstr ""
+
+#: lib/report_html.php:1249
+msgid "Post"
+msgstr ""
+
+#: lib/report_html.php:1250
+msgid "Page"
+msgstr ""
+
+#: lib/report_html.php:1362 lib/report_html.php:2150
+msgid "Total items:"
+msgstr ""
+
+#: lib/report_html.php:1420
+msgid "Display info about this file."
+msgstr ""
+
+#: lib/report_html.php:1421
+msgid "View this file."
+msgstr ""
+
+#: lib/report_html.php:1422
+msgid "Compare this file to the original one."
+msgstr ""
+
+#: lib/report_html.php:1423
+msgid "Restore the original file."
+msgstr ""
+
+#: lib/report_html.php:1424
+msgid "Move this file to the ignored files list (until it is modified again)."
+msgstr ""
+
+#: lib/report_html.php:1425
+msgid "Move this file to the quarantined files list."
+msgstr ""
+
+#: lib/report_html.php:1426
+msgid "View Google Safe Browsing report."
+msgstr ""
+
+#: lib/report_html.php:1428
+msgid "Modified file"
+msgstr ""
+
+#: lib/report_html.php:1429
+msgid "Deleted file"
+msgstr ""
+
+#: lib/report_html.php:1430
+msgid "File info"
+msgstr ""
+
+#: lib/report_html.php:1431
+msgid "Unknown file"
+msgstr ""
+
+#: lib/report_html.php:1432
+msgid "View file"
+msgstr ""
+
+#: lib/report_html.php:1433
+msgid "View changes"
+msgstr ""
+
+#: lib/report_html.php:1434
+msgid "Restore file"
+msgstr ""
+
+#: lib/report_html.php:1435
+msgid "Ignore file"
+msgstr ""
+
+#: lib/report_html.php:1436
+msgid "Quarantine file"
+msgstr ""
+
+#: lib/report_html.php:1437
+msgid "Must-Use plugin"
+msgstr ""
+
+#: lib/report_html.php:1438
+msgid "Drop-Ins plugin"
+msgstr ""
+
+#: lib/report_html.php:1439
+msgid "Site is on Google Safe Browsing blacklist."
+msgstr ""
+
+#: lib/report_html.php:1441
+msgid "Size:"
+msgstr ""
+
+#: lib/report_html.php:1442
+msgid "Modify:"
+msgstr ""
+
+#: lib/report_html.php:1443
+msgid "Access:"
+msgstr ""
+
+#: lib/report_html.php:1444
+msgid "UID / GID:"
+msgstr ""
+
+#: lib/report_html.php:1445
+msgid "Change:"
+msgstr ""
+
+#: lib/report_html.php:1446
+msgid "Info:"
+msgstr ""
+
+#: lib/report_html.php:1447
+msgid "Detection:"
+msgstr ""
+
+#: lib/report_html.php:1517 lib/report_html.php:1660 lib/report_html.php:1847
+#, php-format
+msgid ""
+"This file does not match the original %s file and may have been damaged or "
+"infected."
+msgstr ""
+
+#: lib/report_html.php:1559
+#, php-format
+msgid ""
+"This file is not part of the original %s package and may have been uploaded "
+"by someone else."
+msgstr ""
+
+#: lib/report_html.php:1612 lib/report_html.php:1799
+msgid "This file is unknown and may have been uploaded by someone else."
+msgstr ""
+
+#: lib/report_html.php:1614
+#, php-format
+msgid ""
+"This file is from an unknown package. If it is a premium plugin, <a href=\"%s"
+"\">consult our blog</a> to learn how you can include it in the file "
+"integrity checker."
+msgstr ""
+
+#: lib/report_html.php:1703
+#, php-format
+msgid ""
+"This file is a <a href=\"%s\">Must-Use plugin</a> and could not be compared "
+"to the original one. Make sure it was not tampered with or installed by "
+"someone else."
+msgstr ""
+
+#: lib/report_html.php:1746
+msgid ""
+"This file is a Drop-Ins plugin (a plugin that can be used to replace some "
+"core functionality of WordPress) and could not be compared to the original "
+"one. Make sure it was not tampered with or installed by someone else."
+msgstr ""
+
+#: lib/report_html.php:1801
+#, php-format
+msgid ""
+"This file is from an unknown package. If it is a premium theme, <a href=\"%s"
+"\">consult our blog</a> to learn how you can include it in the file "
+"integrity checker."
+msgstr ""
+
+#: lib/report_html.php:1865
+msgid "This file is a hidden PHP script."
+msgstr ""
+
+#: lib/report_html.php:1871
+#, php-format
+msgid "This file is a %s executable file."
+msgstr ""
+
+#: lib/report_html.php:1876
+#, php-format
+msgid "This is a symbolic link poiting to %s"
+msgstr ""
+
+#: lib/report_html.php:1881
+msgid "This file or folder is unreadable, NinjaScanner cannot scan it."
+msgstr ""
+
+#: lib/report_html.php:2024
+msgid "This file was added since last scan."
+msgstr ""
+
+#: lib/report_html.php:2029
+msgid "This file was modified since last scan."
+msgstr ""
+
+#: lib/report_html.php:2034
+msgid "This file was either deleted, quarantined or ignored since last scan."
+msgstr ""
+
+#: lib/report_html.php:2101
+msgid "Unknown SSH key"
+msgstr ""
+
+#: lib/report_html.php:2102
+msgid ""
+"This is a SSH key and allows a user to connect passwordless to your site "
+"over SSH. Make sure that this file was not uploaded by someone else. "
+msgstr ""
+
+#: lib/report_html.php:2187
+msgid ""
+"Missing file: it may have been deleted or quarantined since last scan. To "
+"refresh the list, run a new scan."
+msgstr ""
+
+#: lib/report_html.php:2194
+msgid "bytes"
+msgstr ""
+
+#: lib/report_text.php:79
+msgid "WordPress core files integrity"
+msgstr ""
+
+#: lib/report_text.php:84 lib/report_text.php:484 lib/report_text.php:514
+#, php-format
+msgid "Warning, a critical error occurred. This test was cancelled: %s"
+msgstr ""
+
+#: lib/report_text.php:90 lib/report_text.php:148 lib/report_text.php:276
+#: lib/report_text.php:374 lib/report_text.php:397 lib/report_text.php:432
+#: lib/report_text.php:456 lib/report_text.php:489 lib/report_text.php:519
+#: lib/report_text.php:546 lib/report_text.php:624 lib/report_text.php:697
+msgid "This test was skipped"
+msgstr ""
+
+#: lib/report_text.php:96
+#, php-format
+msgid "Modified core files: %s"
+msgstr ""
+
+#: lib/report_text.php:97
+msgid "The following files do not match the original WordPress core files."
+msgstr ""
+
+#: lib/report_text.php:100 lib/report_text.php:192 lib/report_text.php:324
+msgid ""
+"If they are damaged or corrupted, you can easily repair them by selecting a "
+"file and clicking on the \"Restore file\" button"
+msgstr ""
+
+#: lib/report_text.php:108 lib/report_text.php:176 lib/report_text.php:303
+#: lib/report_text.php:389 lib/report_text.php:424 lib/report_text.php:447
+#: lib/report_text.php:471 lib/report_text.php:501 lib/report_text.php:536
+#: lib/report_text.php:568 lib/report_text.php:585 lib/report_text.php:604
+#: lib/report_text.php:612 lib/report_text.php:646 lib/report_text.php:663
+#: lib/report_text.php:680 lib/report_text.php:688 lib/report_text.php:719
+#: lib/report_text.php:736 lib/report_text.php:753 lib/report_text.php:761
+#: lib/report_text.php:830
+msgid "No problem detected"
+msgstr ""
+
+#: lib/report_text.php:117 lib/report_text.php:213 lib/report_text.php:337
+#: lib/scan.php:270 lib/scan.php:1533 lib/scan.php:1782
+#, php-format
+msgid "Additional/suspicious files: %s"
+msgstr ""
+
+#: lib/report_text.php:118 lib/report_text.php:133
+msgid ""
+"The following files are not part of the original WordPress package and may "
+"have been uploaded by someone else:"
+msgstr ""
+
+#: lib/report_text.php:132
+#, php-format
+msgid "Unknown files: %s"
+msgstr ""
+
+#: lib/report_text.php:178
+msgid "The following plugin files match the original files:"
+msgstr ""
+
+#: lib/report_text.php:191
+#, php-format
+msgid "Modified plugin files: %s"
+msgstr ""
+
+#: lib/report_text.php:192
+msgid ""
+"The following files do not match the original plugin files and may have been "
+"tampered with."
+msgstr ""
+
+#: lib/report_text.php:214
+msgid ""
+"The following files are not part of any plugin package and may have been "
+"uploaded by someone else:"
+msgstr ""
+
+#: lib/report_text.php:228
+msgid ""
+"The following plugin packages could not be compared to the original ones for "
+"some reason (more information may be available in the scanner log). If they "
+"are premium plugins, consult the documentation to learn how you can include "
+"them in the file integrity checker. Make sure those plugins were not "
+"tampered with or installed by someone else:"
+msgstr ""
+
+#: lib/report_text.php:240
+#, php-format
+msgid "Must-Use plugins: %s"
+msgstr ""
+
+#: lib/report_text.php:241
+msgid ""
+"The following files are \"Must-Use\" plugins (plugins that are automatically "
+"enabled and loaded before normal plugins) and could not be compared to the "
+"original ones. Make sure those plugins were not tampered with or installed "
+"by someone else:"
+msgstr ""
+
+#: lib/report_text.php:253
+#, php-format
+msgid "Drop-Ins plugins: %s"
+msgstr ""
+
+#: lib/report_text.php:254
+msgid ""
+"The following files are \"Drop-Ins\" plugins (plugins that can be used to "
+"replace some core functionality of WordPress) and could not be compared to "
+"the original ones. Make sure those plugins were not tampered with or "
+"installed by someone else:"
+msgstr ""
+
+#: lib/report_text.php:266
+msgid "No plugins were found!"
+msgstr ""
+
+#: lib/report_text.php:305
+msgid "The following theme files match the original files:"
+msgstr ""
+
+#: lib/report_text.php:323
+#, php-format
+msgid "Modified theme files: %s"
+msgstr ""
+
+#: lib/report_text.php:324
+msgid ""
+"The following files do not match the original theme files and may have been "
+"tampered with."
+msgstr ""
+
+#: lib/report_text.php:338
+msgid ""
+"The following files are not part of any theme package and may have been "
+"uploaded by someone else:"
+msgstr ""
+
+#: lib/report_text.php:352
+msgid ""
+"The following theme packages could not be compared to the original ones for "
+"some reason (more information may be available in the scanner log). If they "
+"are premium themes, consult the documentation to learn how you can include "
+"them in the file integrity checker. Make sure those themes were not tampered "
+"with or installed by someone else:"
+msgstr ""
+
+#: lib/report_text.php:361
+msgid "No themes were found!"
+msgstr ""
+
+#: lib/report_text.php:373 lib/report_text.php:388
+msgid "Hidden scripts"
+msgstr ""
+
+#: lib/report_text.php:380
+#, php-format
+msgid "Hidden scripts: %s"
+msgstr ""
+
+#: lib/report_text.php:381
+msgid "The following files are hidden PHP scripts:"
+msgstr ""
+
+#: lib/report_text.php:396 lib/report_text.php:423
+msgid "Executable files"
+msgstr ""
+
+#: lib/report_text.php:403
+#, php-format
+msgid "Executable files: %s"
+msgstr ""
+
+#: lib/report_text.php:404
+msgid "The following files are executable files:"
+msgstr ""
+
+#: lib/report_text.php:431 lib/report_text.php:446
+msgid "Symbolic links"
+msgstr ""
+
+#: lib/report_text.php:438
+#, php-format
+msgid "Symbolink links: %s"
+msgstr ""
+
+#: lib/report_text.php:439
+msgid "The following files or folders are symbolic links:"
+msgstr ""
+
+#: lib/report_text.php:443
+msgid "Target:"
+msgstr ""
+
+#: lib/report_text.php:455 lib/report_text.php:470
+msgid "Unreadable files/folders"
+msgstr ""
+
+#: lib/report_text.php:462
+#, php-format
+msgid "Unreadable files/folders: %s"
+msgstr ""
+
+#: lib/report_text.php:463
+msgid ""
+"The following files or folders are unreadable, NinjaScanner couldn't scan "
+"them:"
+msgstr ""
+
+#: lib/report_text.php:496
+#, php-format
+msgid "Total websites listed on Google Safe Browsing blacklist: %s"
+msgstr ""
+
+#: lib/report_text.php:526
+#, php-format
+msgid "Suspicious files: %s"
+msgstr ""
+
+#: lib/report_text.php:527
+msgid "The following files may be infected with malicious code:"
+msgstr ""
+
+#: lib/report_text.php:557
+#, php-format
+msgid "Modified files: %s"
+msgstr ""
+
+#: lib/report_text.php:558
+msgid "The following files have been modified since last scan:"
+msgstr ""
+
+#: lib/report_text.php:567
+msgid "Modified files since last scan"
+msgstr ""
+
+#: lib/report_text.php:575
+#, php-format
+msgid "New files: %s"
+msgstr ""
+
+#: lib/report_text.php:576
+msgid "The following files have been added since last scan:"
+msgstr ""
+
+#: lib/report_text.php:584
+msgid "Added files since last scan"
+msgstr ""
+
+#: lib/report_text.php:593
+#, php-format
+msgid "Deleted files: %s"
+msgstr ""
+
+#: lib/report_text.php:594
+msgid "The following files have been deleted since last scan:"
+msgstr ""
+
+#: lib/report_text.php:603
+msgid "Deleted files since last scan"
+msgstr ""
+
+#: lib/report_text.php:609
+msgid "Skipping snapshots comparison, no older file snapshot found"
+msgstr ""
+
+#: lib/report_text.php:636
+#, php-format
+msgid "Modified posts: %s"
+msgstr ""
+
+#: lib/report_text.php:637
+msgid "The following posts have been modified since last scan:"
+msgstr ""
+
+#: lib/report_text.php:645
+msgid "Modified posts since last scan"
+msgstr ""
+
+#: lib/report_text.php:653
+#, php-format
+msgid "New posts: %s"
+msgstr ""
+
+#: lib/report_text.php:654
+msgid "The following posts have been added since last scan:"
+msgstr ""
+
+#: lib/report_text.php:662
+msgid "Added posts since last scan"
+msgstr ""
+
+#: lib/report_text.php:670
+#, php-format
+msgid "Deleted posts: %s"
+msgstr ""
+
+#: lib/report_text.php:671
+msgid "The following posts have been deleted since last scan:"
+msgstr ""
+
+#: lib/report_text.php:679
+msgid "Deleted posts since last scan"
+msgstr ""
+
+#: lib/report_text.php:685 lib/report_text.php:758
+msgid "Skipping snapshots comparison, no older database snapshot found"
+msgstr ""
+
+#: lib/report_text.php:709
+#, php-format
+msgid "Modified pages: %s"
+msgstr ""
+
+#: lib/report_text.php:710
+msgid "The following pages have been modified since last scan:"
+msgstr ""
+
+#: lib/report_text.php:718
+msgid "Modified pages since last scan"
+msgstr ""
+
+#: lib/report_text.php:726
+#, php-format
+msgid "New pages: %s"
+msgstr ""
+
+#: lib/report_text.php:727
+msgid "The following pages have been added since last scan:"
+msgstr ""
+
+#: lib/report_text.php:735
+msgid "Added pages since last scan"
+msgstr ""
+
+#: lib/report_text.php:743
+#, php-format
+msgid "Deleted pages: %s"
+msgstr ""
+
+#: lib/report_text.php:744
+msgid "The following pages have been deleted since last scan:"
+msgstr ""
+
+#: lib/report_text.php:752
+msgid "Deleted pages since last scan"
+msgstr ""
+
+#: lib/report_text.php:769
+msgid "Various"
+msgstr ""
+
+#: lib/report_text.php:781
+msgid "SSH key:"
+msgstr ""
+
+#: lib/report_text.php:784
+#, php-format
+msgid ""
+"%s SSH key was found and allows a user to connect to your site over SSH. "
+"Make sure that file was not uploaded by someone else:"
+msgid_plural ""
+"%s SSH keys were found and allow a user to connect to your site over SSH. "
+"Make sure those files were not uploaded by someone else:"
+msgstr[0] ""
+msgstr[1] ""
+
+#: lib/report_text.php:798
+msgid "Membership:"
+msgstr ""
+
+#: lib/report_text.php:801
+msgid ""
+"Although user registration is disabled, the \"New User Default Role\" option "
+"is set to \"administrator\"."
+msgstr ""
+
+#: lib/report_text.php:804
+msgid ""
+"User registration is enabled and the \"New User Default Role\" option is set "
+"to \"administrator\"!"
+msgstr ""
+
+#: lib/report_text.php:811
+msgid "User roles:"
+msgstr ""
+
+#: lib/report_text.php:812
+msgid ""
+"NinjaScanner has detected that the following user roles have been given "
+"capabilities that, by default, are only assigned to an administrator:"
+msgstr ""
+
+#: lib/report_text.php:824
+msgid "Firewall:"
+msgstr ""
+
+#: lib/report_text.php:825
+msgid "No firewall detected"
+msgstr ""
+
+#: lib/report_text.php:826
+msgid ""
+"Consider installing a Web Application Firewall such as NinjaFirewall "
+"(https://wordpress.org/plugins/ninjafirewall/) to make sure your site is "
+"well protected against web attacks."
+msgstr ""
+
+#: lib/report_text.php:835
+msgid "End of report"
+msgstr ""
+
+#: lib/scan.php:46
+msgid "Restarting scanning process"
+msgstr ""
+
+#: lib/scan.php:48
+msgid "Starting scanning process"
+msgstr ""
+
+#: lib/scan.php:51
+#, php-format
+msgid "Server memory_limit: %s"
+msgstr ""
+
+#: lib/scan.php:54
+#, php-format
+msgid "Server max_execution_time: %s"
+msgstr ""
+
+#: lib/scan.php:64
+msgid "Checking NinjaScanner files integrity"
+msgstr ""
+
+#: lib/scan.php:69 lib/scan.php:133 lib/scan.php:260 lib/scan.php:298
+#: lib/scan.php:329 lib/scan.php:361 lib/scan.php:414 lib/scan.php:476
+#: lib/scan.php:505 lib/scan.php:597
+#, php-format
+msgid "Processing step %s (%s/%s)"
+msgstr ""
+
+#: lib/scan.php:75 lib/scan.php:266
+msgid "Files integrity is O.K"
+msgstr ""
+
+#: lib/scan.php:86
+msgid "Clearing 'scan_ninjaintegrity', we'll check the plugin again later"
+msgstr ""
+
+#: lib/scan.php:90
+msgid "Skipping NinjaScanner files integrity check"
+msgstr ""
+
+#: lib/scan.php:94 lib/scan.php:241 lib/scan.php:280 lib/scan.php:312
+#: lib/scan.php:343 lib/scan.php:396 lib/scan.php:456 lib/scan.php:489
+#: lib/scan.php:578 lib/scan.php:687
+#, php-format
+msgid "Process used %s bytes out of %s bytes of allocated memory."
+msgstr ""
+
+#: lib/scan.php:100 lib/scan.php:247 lib/scan.php:286 lib/scan.php:317
+#: lib/scan.php:348 lib/scan.php:402 lib/scan.php:462 lib/scan.php:583
+#, php-format
+msgid "Ignoring step %s (already done)"
+msgstr ""
+
+#: lib/scan.php:109
+msgid "Building files list"
+msgstr ""
+
+#: lib/scan.php:158
+msgid ""
+"Fatal error: No file found. Check your NinjaScanner configuration. Aborting."
+msgstr ""
+
+#: lib/scan.php:166
+#, php-format
+msgid "Total files found: %s"
+msgstr ""
+
+#: lib/scan.php:171
+#, php-format
+msgid "Symlinks found: %s"
+msgstr ""
+
+#: lib/scan.php:180
+#, php-format
+msgid "Unreadable files found: %s"
+msgstr ""
+
+#: lib/scan.php:189
+#, php-format
+msgid "Hidden scripts found: %s"
+msgstr ""
+
+#: lib/scan.php:198
+#, php-format
+msgid "Executable files found: %s"
+msgstr ""
+
+#: lib/scan.php:208
+msgid "Building database posts and pages checksum"
+msgstr ""
+
+#: lib/scan.php:234
+#, php-format
+msgid "Found %s posts and %s pages in the database"
+msgstr ""
+
+#: lib/scan.php:255
+msgid "Checking WordPress core files integrity"
+msgstr ""
+
+#: lib/scan.php:275
+msgid "Skipping WordPress core files integrity check"
+msgstr ""
+
+#: lib/scan.php:294
+msgid "Checking plugin files integrity"
+msgstr ""
+
+#: lib/scan.php:304
+msgid "Plugin files integrity is O.K"
+msgstr ""
+
+#: lib/scan.php:307
+msgid "Skipping plugin files integrity check"
+msgstr ""
+
+#: lib/scan.php:325
+msgid "Checking theme files integrity"
+msgstr ""
+
+#: lib/scan.php:335
+msgid "Theme files integrity is O.K"
+msgstr ""
+
+#: lib/scan.php:338
+msgid "Skipping theme files integrity check"
+msgstr ""
+
+#: lib/scan.php:357
+msgid "Comparing previous and current file snapshots"
+msgstr ""
+
+#: lib/scan.php:369
+msgid "Skipping snapshots comparison, no older files shapshot found"
+msgstr ""
+
+#: lib/scan.php:380 lib/scan.php:438
+msgid "Old snapshot file seems corrupted. Deleting it and skipping this step"
+msgstr ""
+
+#: lib/scan.php:385 lib/scan.php:445
+msgid "Previous and current snapshots match"
+msgstr ""
+
+#: lib/scan.php:391
+msgid "Skipping snapshots comparison"
+msgstr ""
+
+#: lib/scan.php:410
+msgid "Comparing previous and current database snapshots"
+msgstr ""
+
+#: lib/scan.php:422 lib/scan.php:441
+msgid "Skipping snapshots comparison, no older database shapshot found"
+msgstr ""
+
+#: lib/scan.php:451
+msgid "Skipping database snapshots comparison"
+msgstr ""
+
+#: lib/scan.php:472
+msgid "Checking Google Safe Browsing"
+msgstr ""
+
+#: lib/scan.php:484
+msgid "Skipping Google Safe Browsing: no API key found"
+msgstr ""
+
+#: lib/scan.php:501
+msgid "Running anti-malware scanner"
+msgstr ""
+
+#: lib/scan.php:517
+msgid "Re-using NSCAN_MALWARE_LOG from previous attempt"
+msgstr ""
+
+#: lib/scan.php:526
+msgid "Cannot find the list of files to check, creating a new one"
+msgstr ""
+
+#: lib/scan.php:533
+msgid "Retrieving signatures lists"
+msgstr ""
+
+#: lib/scan.php:549
+#, php-format
+msgid "Checking user-defined signatures list (%s)"
+msgstr ""
+
+#: lib/scan.php:564
+#, php-format
+msgid "Total loaded signatures: %s"
+msgstr ""
+
+#: lib/scan.php:568
+msgid "No suspicious file detected"
+msgstr ""
+
+#: lib/scan.php:573
+msgid "Skipping anti-malware scanner"
+msgstr ""
+
+#: lib/scan.php:592
+msgid "Finishing"
+msgstr ""
+
+#: lib/scan.php:614
+#, php-format
+msgid "Found %s SSH key in user home folder"
+msgid_plural "Found %s SSH keys in user home folder"
+msgstr[0] ""
+msgstr[1] ""
+
+#: lib/scan.php:630
+msgid "All New Registered users have administrator role"
+msgstr ""
+
+#: lib/scan.php:634
+msgid "New User Default Role is set to \"administrator\""
+msgstr ""
+
+#: lib/scan.php:680
+#, php-format
+msgid "Found user roles with administrator capabilities: %s"
+msgstr ""
+
+#: lib/scan.php:733
+#, php-format
+msgid "Total URL to check: %s"
+msgstr ""
+
+#: lib/scan.php:785
+#, php-format
+msgid "Total blacklisted URL: %s"
+msgstr ""
+
+#: lib/scan.php:795
+#, php-format
+msgid "%s. Cannot check Google Safe Browsing. Try again later"
+msgstr ""
+
+#: lib/scan.php:814
+msgid "items scanned:"
+msgstr ""
+
+#: lib/scan.php:839
+#, php-format
+msgid "File does not exist, ignoring it: %s"
+msgstr ""
+
+#: lib/scan.php:865 lib/scan.php:874
+#, php-format
+msgid "Potentially unsafe files: %s"
+msgstr ""
+
+#: lib/scan.php:887
+#, php-format
+msgid "Cannot open %s, skipping it"
+msgstr ""
+
+#: lib/scan.php:894
+#, php-format
+msgid "Total potentially unsafe files: %s"
+msgstr ""
+
+#: lib/scan.php:912
+#, php-format
+msgid "Cannot find %s, skipping it"
+msgstr ""
+
+#: lib/scan.php:920
+#, php-format
+msgid "Cannot open/read %s, skipping it"
+msgstr ""
+
+#: lib/scan.php:926
+msgid "Verifying signatures"
+msgstr ""
+
+#: lib/scan.php:948
+#, php-format
+msgid "Verified signatures: %s"
+msgstr ""
+
+#: lib/scan.php:954
+msgid "No valid signatures found in that file, skipping it."
+msgstr ""
+
+#: lib/scan.php:973
+#, php-format
+msgid "REX signature syntax error, skipping it: %s"
+msgstr ""
+
+#: lib/scan.php:981
+#, php-format
+msgid "HEX signature syntax error, skipping it: %s"
+msgstr ""
+
+#: lib/scan.php:999
+msgid "Checking built-in signatures list"
+msgstr ""
+
+#: lib/scan.php:1005 lib/scan.php:1417 lib/scan.php:1663
+msgid "Using local copy"
+msgstr ""
+
+#: lib/scan.php:1010
+msgid "Local copy is too old, deleting it"
+msgstr ""
+
+#: lib/scan.php:1015
+msgid "Downloading the latest version"
+msgstr ""
+
+#: lib/scan.php:1055
+#, php-format
+msgid ""
+"The signatures list is either corrupted or empty. Try again later (error %s)"
+msgstr ""
+
+#: lib/scan.php:1065
+msgid "Verifying digital signature with public key"
+msgstr ""
+
+#: lib/scan.php:1070
+msgid ""
+"The digital signature is not correct. Aborting update, rules may have been "
+"tampered with."
+msgstr ""
+
+#: lib/scan.php:1084
+#, php-format
+msgid "HTTP Error %s. Cannot download signatures list. Try again later"
+msgstr ""
+
+#: lib/scan.php:1095
+#, php-format
+msgid "%s. Cannot download built-in signatures list. Try again later"
+msgstr ""
+
+#: lib/scan.php:1138
+#, php-format
+msgid "Total additional posts: %s"
+msgstr ""
+
+#: lib/scan.php:1144
+#, php-format
+msgid "Total modified posts: %s"
+msgstr ""
+
+#: lib/scan.php:1150
+#, php-format
+msgid "Total deleted posts: %s"
+msgstr ""
+
+#: lib/scan.php:1181
+#, php-format
+msgid "Total additional pages: %s"
+msgstr ""
+
+#: lib/scan.php:1187
+#, php-format
+msgid "Total modified pages: %s"
+msgstr ""
+
+#: lib/scan.php:1193
+#, php-format
+msgid "Total deleted pages: %s"
+msgstr ""
+
+#: lib/scan.php:1244
+#, php-format
+msgid "Total additional files: %s"
+msgstr ""
+
+#: lib/scan.php:1250
+#, php-format
+msgid "Total modified files: %s"
+msgstr ""
+
+#: lib/scan.php:1256
+#, php-format
+msgid "Total deleted files: %s"
+msgstr ""
+
+#: lib/scan.php:1277
+msgid "Checking user-defined exclusion lists"
+msgstr ""
+
+#: lib/scan.php:1290
+msgid "Creating extensions exclusion list"
+msgstr ""
+
+#: lib/scan.php:1304 lib/scan.php:1395 lib/scan.php:1634
+msgid "Creating files/folders exclusion list"
+msgstr ""
+
+#: lib/scan.php:1314
+#, php-format
+msgid "Limiting search to file smaller than %s bytes"
+msgstr ""
+
+#: lib/scan.php:1345
+#, php-format
+msgid "Files ignored based on user-defined exclusion lists: %s"
+msgstr ""
+
+#: lib/scan.php:1366
+msgid "Building themes list"
+msgstr ""
+
+#: lib/scan.php:1378
+msgid "No themes found"
+msgstr ""
+
+#: lib/scan.php:1382
+#, php-format
+msgid "Total themes found: %s"
+msgstr ""
+
+#: lib/scan.php:1412 lib/scan.php:1658
+msgid "Using user-uploaded local copy"
+msgstr ""
+
+#: lib/scan.php:1421 lib/scan.php:1667
+msgid "Attempting to download it from wordpress.org"
+msgstr ""
+
+#: lib/scan.php:1442 lib/scan.php:1692 lib/scan.php:2155
+msgid "Using CRC-32B checksum"
+msgstr ""
+
+#: lib/scan.php:1453 lib/scan.php:1500 lib/scan.php:1702 lib/scan.php:1750
+#: lib/scan.php:2048 lib/scan.php:2181 lib/scan.php:2247
+#, php-format
+msgid "Checksum mismatch: %s"
+msgstr ""
+
+#: lib/scan.php:1486 lib/scan.php:1735 lib/scan.php:2217
+#, php-format
+msgid "Using %s algo"
+msgstr ""
+
+#: lib/scan.php:1540
+#, php-format
+msgid "Total modified theme files: %s"
+msgstr ""
+
+#: lib/scan.php:1562
+msgid "Building plugins list"
+msgstr ""
+
+#: lib/scan.php:1580
+#, php-format
+msgid "Additional/suspicious plugin: %s %s (%s)"
+msgstr ""
+
+#: lib/scan.php:1600
+#, php-format
+msgid "mu-plugin found: %s %s (%s)"
+msgstr ""
+
+#: lib/scan.php:1617
+msgid "No plugins found"
+msgstr ""
+
+#: lib/scan.php:1621
+#, php-format
+msgid "Total plugins found: %s"
+msgstr ""
+
+#: lib/scan.php:1651
+msgid "Ignoring NinjaScanner, its integrity was checked already"
+msgstr ""
+
+#: lib/scan.php:1671
+msgid "Not found. Attempting to download it from the trunk folder instead"
+msgstr ""
+
+#: lib/scan.php:1789
+#, php-format
+msgid "Total modified plugin files: %s"
+msgstr ""
+
+#: lib/scan.php:1812
+#, php-format
+msgid "Cannot create folder %s. Is your filesystem read-only?"
+msgstr ""
+
+#: lib/scan.php:1828
+#, php-format
+msgid "Unable to extract ZIP archive (error code: %s)"
+msgstr ""
+
+#: lib/scan.php:1848
+#, php-format
+msgid "Directory path does not match NSCAN_CACHEDIR: %s"
+msgstr ""
+
+#: lib/scan.php:1875
+msgid "Building files list from ZIP archive"
+msgstr ""
+
+#: lib/scan.php:1896
+msgid "Files list is empty. Skipping this archive"
+msgstr ""
+
+#: lib/scan.php:1904
+#, php-format
+msgid "Unable to open ZIP archive (error code: %s)"
+msgstr ""
+
+#: lib/scan.php:1956
+#, php-format
+msgid "HTTP Error %s. Skipping %s %s, it may not be available in the repo"
+msgstr ""
+
+#: lib/scan.php:1968
+#, php-format
+msgid "%s. Skipping it. You may try again later"
+msgstr ""
+
+#: lib/scan.php:1988
+msgid "Using local cached version of checksums"
+msgstr ""
+
+#: lib/scan.php:1992
+msgid "Decoded hashes seem corrupted. Deleting local cached version"
+msgstr ""
+
+#: lib/scan.php:2004
+msgid "Downloading checksums"
+msgstr ""
+
+#: lib/scan.php:2017 lib/scan.php:2116
+#, php-format
+msgid "%s. Skipping this step"
+msgstr ""
+
+#: lib/scan.php:2027
+msgid ""
+"Fatal error: NinjaScanner files integrity check: Decoded hashes seem "
+"corrupted. Aborting."
+msgstr ""
+
+#: lib/scan.php:2055
+#, php-format
+msgid "Missing file: %s"
+msgstr ""
+
+#: lib/scan.php:2062
+#, php-format
+msgid ""
+"Fatal error: Some NinjaScanner files have been modified (%s) or are missing "
+"(%s). Please reinstall NinjaScanner or disable NinjaScanner files integrity "
+"checker. Aborting."
+msgstr ""
+
+#: lib/scan.php:2099
+#, php-format
+msgid "Downloading %s from wordpress.org"
+msgstr ""
+
+#: lib/scan.php:2128
+#, php-format
+msgid "HTTP Error %s. Skipping this step, you may try again later"
+msgstr ""
+
+#: lib/scan.php:2137
+#, php-format
+msgid "Using local cached copy (%s)"
+msgstr ""
+
+#: lib/scan.php:2144
+msgid "Unable to retrieve ZIP files list. Skipping this step"
+msgstr ""
+
+#: lib/scan.php:2150
+msgid "Comparing with original files"
+msgstr ""
+
+#: lib/scan.php:2203
+msgid "Unable to extract ZIP archive. Skipping this step"
+msgstr ""
+
+#: lib/scan.php:2270
+#, php-format
+msgid "Total modified core files: %s"
+msgstr ""
+
+#: lib/scan.php:2286
+msgid "NSCAN_MAX_EXEC_TIME reached; exiting process and attempting to restart"
+msgstr ""
+
+#: lib/tab_about.php:27
+#, php-format
+msgid ""
+"<strong>Need more security?</strong> Check out <a href=\"%s\">NinjaFirewall "
+"(WP Edition)</a>, our Web Application Firewall for WordPress. It will give "
+"your blog the highest level of protection it deserves, no less!"
+msgstr ""
+
+#: lib/tab_about.php:28
+#, php-format
+msgid ""
+"<strong>Hacked? We're here to help:</strong> <a href=\"%s\">our malware "
+"removal service</a> will help you clean up your hacked website and will "
+"ensure it gets safely and promptly back online."
+msgstr ""
+
+#: lib/tab_about.php:29
+msgid "Our blog:"
+msgstr ""
+
+#: lib/tab_about.php:30
+msgid "GDPR Compliance"
+msgstr ""
+
+#: lib/tab_about.php:31
+msgid ""
+"Stay informed about the latest vulnerabilities in WordPress plugins and "
+"themes:"
+msgstr ""
+
+#: lib/tab_about.php:32
+msgid "Rate NinjaScanner on WordPress.org!"
+msgstr ""
+
+#: lib/tab_ignored.php:42 lib/tab_quarantine.php:46
+msgid "Changes have been applied."
+msgstr ""
+
+#: lib/tab_ignored.php:75 lib/tab_ignored.php:81
+msgid "Remove from the ignored files list"
+msgstr ""
+
+#: lib/tab_ignored.php:79
+msgid "The ignored files list is empty."
+msgstr ""
+
+#: lib/tab_ignored.php:85
+msgid ""
+"Files and folders will remain in the ignored list until they are modified or "
+"manually removed from the list."
+msgstr ""
+
+#: lib/tab_premium.php:59
+#, php-format
+msgid "<a href=\"%s\">Get Premium</a> and enjoy the following benefits:"
+msgstr ""
+
+#: lib/tab_premium.php:61
+msgid "Scheduled scan"
+msgstr ""
+
+#: lib/tab_premium.php:62
+msgid ""
+"Don't leave your blog at risk. With the scheduled scan option, NinjaScanner "
+"will run automatically hourly, twice daily or daily."
+msgstr ""
+
+#: lib/tab_premium.php:64
+msgid "WP-CLI integration"
+msgstr ""
+
+#: lib/tab_premium.php:66
+msgid ""
+"Do you own several blogs and prefer to manage them from the command line?"
+msgstr ""
+
+#: lib/tab_premium.php:68
+msgid ""
+"NinjaScanner can nicely integrate with WP-CLI, using the <code>ninjascanner</"
+"code> command."
+msgstr ""
+
+#: lib/tab_premium.php:70
+msgid ""
+"You can use it to start or stop a scanning process, view its status, its "
+"report or log and enter your Premium license from your favourite terminal, "
+"without having to log in to the WordPress Admin Dashboard"
+msgstr ""
+
+#: lib/tab_premium.php:90
+msgid "Dedicated Help Desk with Priority Support"
+msgstr ""
+
+#: lib/tab_premium.php:91
+#, php-format
+msgid ""
+"Need help with NinjaScanner? Premium users have a <a href=\"%s\">dedicated "
+"help desk</a>."
+msgstr ""
+
+#: lib/tab_premium.php:95
+msgid "Premium License"
+msgstr ""
+
+#: lib/tab_premium.php:96
+msgid "Already have a license key? Enter it below:"
+msgstr ""
+
+#: lib/tab_premium.php:99 lib/tab_premium.php:202
+msgid "Save License"
+msgstr ""
+
+#: lib/tab_premium.php:103 lib/tab_premium.php:206
+msgid "Don't have a license yet?"
+msgstr ""
+
+#: lib/tab_premium.php:105
+msgid "Get Premium now!"
+msgstr ""
+
+#: lib/tab_premium.php:135
+msgid "Current License"
+msgstr ""
+
+#: lib/tab_premium.php:138
+msgid "License Number"
+msgstr ""
+
+#: lib/tab_premium.php:144
+msgid "No license found"
+msgstr ""
+
+#: lib/tab_premium.php:149
+msgid "Check your license validity"
+msgstr ""
+
+#: lib/tab_premium.php:159
+msgid "Expiration date"
+msgstr ""
+
+#: lib/tab_premium.php:167
+msgid "Your license does not seem to be valid."
+msgstr ""
+
+#: lib/tab_premium.php:167
+msgid ""
+"Click on the \"Check your license validity\" button to attempt to fix this "
+"error."
+msgstr ""
+
+#: lib/tab_premium.php:173
+msgid "Your license will expire soon!"
+msgstr ""
+
+#: lib/tab_premium.php:179
+msgid "Your license has expired."
+msgstr ""
+
+#: lib/tab_premium.php:198
+msgid "License renewal"
+msgstr ""
+
+#: lib/tab_premium.php:199
+msgid "Enter your license below:"
+msgstr ""
+
+#: lib/tab_premium.php:208
+msgid "Click here to get one!"
+msgstr ""
+
+#: lib/tab_quarantine.php:79 lib/tab_quarantine.php:85
+msgid "Delete selected files"
+msgstr ""
+
+#: lib/tab_quarantine.php:79 lib/tab_quarantine.php:85
+msgid "Restore selected files"
+msgstr ""
+
+#: lib/tab_quarantine.php:83
+msgid "The quarantine folder is empty."
+msgstr ""
+
+#: lib/tab_quarantine.php:89
+msgid ""
+"Files will remain in the quarantine folder until you restore or delete them."
+msgstr ""
+
+#: lib/tab_settings.php:24
+msgid ""
+"A scanning process is currently running in the background, settings cannot "
+"be changed. Wait until the process has finished, or cancel it from the "
+"\"Summary\" tab."
+msgstr ""
+
+#: lib/tab_settings.php:52
+msgid "The cache was cleared."
+msgstr ""
+
+#: lib/tab_settings.php:58
+msgid "Default settings were successfully restored."
+msgstr ""
+
+#: lib/tab_settings.php:71
+msgid "Your settings were successfully saved."
+msgstr ""
+
+#: lib/tab_settings.php:119
+#, php-format
+msgid "Scan only files smaller than %s KB"
+msgstr ""
+
+#: lib/tab_settings.php:121
+msgid "Set this option to 0 to disable it."
+msgstr ""
+
+#: lib/tab_settings.php:141 lib/tab_settings.php:168 lib/tab_settings.php:190
+msgid "e.g.,"
+msgstr ""
+
+#: lib/tab_settings.php:143
+msgid "Case-insensitive extensions. Multiple values must be comma-separated."
+msgstr ""
+
+#: lib/tab_settings.php:170
+msgid "Case-sensitive string. Multiple values must be comma-separated."
+msgstr ""
+
+#: lib/tab_settings.php:192
+msgid ""
+"Multiple recipients must be comma-separated. Leave it blank if you do not "
+"want to send the report."
+msgstr ""
+
+#: lib/tab_settings.php:193
+msgid "Send the report even if no problems were detected."
+msgstr ""
+
+#: lib/tab_settings.php:194
+msgid "Send the report if a critical or important problem was detected."
+msgstr ""
+
+#: lib/tab_settings.php:195
+msgid "Send the report only if a critical problem was detected."
+msgstr ""
+
+#: lib/tab_settings.php:211 lib/tab_settings.php:585
+msgid "Never"
+msgstr ""
+
+#: lib/tab_settings.php:212 lib/tab_settings.php:582
+msgid "Hourly"
+msgstr ""
+
+#: lib/tab_settings.php:213 lib/tab_settings.php:583
+msgid "Twicedaily"
+msgstr ""
+
+#: lib/tab_settings.php:214 lib/tab_settings.php:584
+msgid "Daily"
+msgstr ""
+
+#: lib/tab_settings.php:227
+#, php-format
+msgid "Enable <a href=\"%s\">WP-CLI</a> integration"
+msgstr ""
+
+#: lib/tab_settings.php:275
+msgid "Report files that were changed, added or deleted since last scan."
+msgstr ""
+
+#: lib/tab_settings.php:281
+msgid ""
+"Report pages and posts that were changed, added or deleted in the database "
+"since last scan."
+msgstr ""
+
+#: lib/tab_settings.php:336
+#, php-format
+msgid ""
+"If you have <a href=\"%s\">an API key</a>, enter it below to check your site "
+"with the Google Safe Browsing service"
+msgstr ""
+
+#: lib/tab_settings.php:339
+msgid "Test API key"
+msgstr ""
+
+#: lib/tab_settings.php:387
+msgid "Allow incremental scan."
+msgstr ""
+
+#: lib/tab_settings.php:388
+msgid ""
+"If a scan is interrupted before completion, it will restart automatically "
+"where it left off."
+msgstr ""
+
+#: lib/tab_settings.php:432
+#, php-format
+msgid ""
+"This feature requires the NinjaFirewall (version 3.6 at least) web "
+"application firewall plugin: <a href=\"%s\">download it from wordpress.org</"
+"a>."
+msgstr ""
+
+#: lib/tab_settings.php:464
+msgid "Row action links:"
+msgstr ""
+
+#: lib/tab_settings.php:465
+msgid "Show when hover on row."
+msgstr ""
+
+#: lib/tab_settings.php:466
+msgid "Always visible."
+msgstr ""
+
+#: lib/tab_settings.php:468
+msgid "Number of visible rows in table:"
+msgstr ""
+
+#: lib/tab_settings.php:469
+#, php-format
+msgid "%s rows"
+msgstr ""
+
+#: lib/tab_settings.php:471
+msgid "File names:"
+msgstr ""
+
+#: lib/tab_settings.php:472
+msgid "Show absolute path."
+msgstr ""
+
+#: lib/tab_settings.php:473
+msgid "Show relative path."
+msgstr ""
+
+#: lib/tab_settings.php:475
+msgid "Highlight syntax when viewing a file."
+msgstr ""
+
+#: lib/tab_settings.php:501
+msgid ""
+"If you enabled HTTP authentication, do not forget to set the \"Scanning "
+"process\" option to \"Ajax Process Execution\" in the \"Advanced Users "
+"Settings\" section."
+msgstr ""
+
+#: lib/tab_settings.php:519
+msgid "This option is only compatible with 64-bit operating systems."
+msgstr ""
+
+#: lib/tab_settings.php:525 lib/tab_settings.php:526 lib/tab_settings.php:527
+#, php-format
+msgid "Use %s."
+msgstr ""
+
+#: lib/tab_settings.php:545
+msgid "Show the \"Log\" tab."
+msgstr ""
+
+#: lib/tab_settings.php:551
+msgid "Run diagnostics"
+msgstr ""
+
+#: lib/tab_settings.php:566
+msgid "Enable the quarantine sandbox."
+msgstr ""
+
+#: lib/tab_settings.php:586
+msgid "Run it now!"
+msgstr ""
+
+#: lib/tab_settings.php:587
+msgid "Clear snapshot and scan report."
+msgstr ""
+
+#: lib/tab_settings.php:600
+msgid "Uninstall options"
+msgstr ""
+
+#: lib/tab_settings.php:602
+msgid ""
+"Do not delete options and the cache folder when uninstalling NinjaScanner."
+msgstr ""
+
+#: lib/tab_settings.php:610
+msgid "Save Settings"
+msgstr ""
+
+#: lib/tab_settings.php:612
+msgid "Restore Default Settings"
+msgstr ""
+
+#: lib/tab_settings.php:995
+msgid "No error detected."
+msgstr ""
+
+#: lib/tab_settings.php:1000
+#, php-format
+msgid "Error: The server returned the following HTTP code: %s %s"
+msgstr ""
+
+#: lib/tab_settings.php:1008
+#, php-format
+msgid "Error: The following error occurred: %s"
+msgstr ""
+
+#: lib/tab_summary.php:19
+msgid "NinjaScanner is running in the background."
+msgstr ""
+
+#: lib/tab_summary.php:20
+msgid ""
+"Meanwhile, you can leave this page and keep working on your blog as usual, "
+"or even log out of the WordPress dashboard."
+msgstr ""
+
+#: lib/tab_summary.php:68 lib/tab_summary.php:100
+msgid "None"
+msgstr ""
+
+#: lib/tab_summary.php:86
+msgid "Today"
+msgstr ""
+
+#: lib/tab_summary.php:105
+#, php-format
+msgid "%s day"
+msgid_plural "%s days"
+msgstr[0] ""
+msgstr[1] ""
+
+#: lib/tab_summary.php:106
+#, php-format
+msgid "%s hour"
+msgid_plural "%s hours"
+msgstr[0] ""
+msgstr[1] ""
+
+#: lib/tab_summary.php:107
+#, php-format
+msgid "%s minute"
+msgid_plural "%s minutes"
+msgstr[0] ""
+msgstr[1] ""
+
+#: lib/tab_summary.php:108
+#, php-format
+msgid "%s second"
+msgid_plural "%s seconds"
+msgstr[0] ""
+msgstr[1] ""
+
+#: lib/tab_summary.php:109
+#, php-format
+msgid "In approximately %s, %s, %s and %s."
+msgstr ""
+
+#: lib/tab_summary.php:116
+msgid "Last scan"
+msgstr ""
+
+#: lib/tab_summary.php:123
+msgid "View Scan Report"
+msgstr ""
+
+#: lib/tab_summary.php:130
+msgid "Next scheduled scan"
+msgstr ""
+
+#: lib/tab_summary.php:138
+msgid "Scan Your Blog"
+msgstr ""
+
+#: lib/tab_summary.php:140
+msgid "Cancel Scan"
+msgstr ""
+
+#: lib/vendor/diff/Diff/Renderer/Html/SideBySide.php:67
+msgid "Original file"
+msgstr ""
+
+#: lib/vendor/diff/Diff/Renderer/Html/SideBySide.php:68
+msgid "Your file"
+msgstr ""
