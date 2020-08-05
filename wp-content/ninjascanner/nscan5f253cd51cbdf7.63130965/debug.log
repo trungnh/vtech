@@ -1,133 +1,134 @@
-1596275946~~1~~Starting scanning process
-1596275946~~8~~Server memory_limit: 128M
-1596275946~~8~~Server max_execution_time: 0
-1596275946~~1~~Processing step 1 (0/10)
-1596275946~~1~~Skipping NinjaScanner files integrity check
-1596275946~~8~~Process used 74,648,464 bytes out of 62,914,560 bytes of allocated memory.
-1596275946~~1~~Processing step 2 (0/10)
-1596275946~~1~~Checking NinjaScanner files integrity
-1596275946~~1~~Total files found: 11068
-1596275946~~2~~Unreadable files found: 1645
-1596275946~~1~~Building database posts and pages checksum
-1596275947~~1~~Found 4 posts and 19 pages in the database
-1596275947~~8~~Process used 81,673,576 bytes out of 71,303,168 bytes of allocated memory.
-1596275947~~1~~Processing step 3 (0/10)
-1596275947~~1~~Checking WordPress core files integrity
-1596275947~~8~~Downloading wordpress-5.4.2.zip from wordpress.org
-1596275950~~8~~Building files list from ZIP archive
-1596275953~~8~~Using sha1 algo
-1596275953~~2~~Checksum mismatch: /home/vtech/wp-config-sample.php
-1596275953~~2~~Checksum mismatch: /home/vtech/license.txt
-1596275954~~2~~Checksum mismatch: /home/vtech/wp-includes/images/crystal/license.txt
-1596275956~~2~~Checksum mismatch: /home/vtech/wp-includes/js/dist/blocks.js
-1596275957~~2~~Checksum mismatch: /home/vtech/wp-includes/js/jquery/jquery-migrate.js
-1596275959~~2~~Total modified core files: 5
-1596275959~~2~~Additional/suspicious files: 1
-1596275959~~8~~Process used 121,727,776 bytes out of 110,972,928 bytes of allocated memory.
-1596275959~~1~~Processing step 4 (0/10)
-1596275959~~1~~Checking plugin files integrity
-1596275959~~8~~Building plugins list
-1596275959~~2~~mu-plugin found: SecuPress COOKIEHASH 1.0 (/home/vtech/wp-content/plugins/_secupress_cookiehash_5f19405c3f8f0.php)
-1596275959~~2~~mu-plugin found: SecuPress Salt Keys 1.0.1 (/home/vtech/wp-content/plugins/_secupress_salt_keys_5f19407050b08.php)
-1596275959~~8~~Total plugins found: 13
-1596275959~~8~~classic-editor 1.5
-1596275959~~8~~Attempting to download it from wordpress.org
-1596275960~~8~~Building files list from ZIP archive
-1596275960~~8~~Using sha1 algo
-1596275960~~8~~everest-forms 1.7.0.1
-1596275960~~8~~Attempting to download it from wordpress.org
-1596275962~~8~~Building files list from ZIP archive
-1596275962~~8~~Using sha1 algo
-1596275963~~8~~facebook-for-woocommerce 1.11.4
-1596275963~~8~~Attempting to download it from wordpress.org
-1596275965~~8~~Building files list from ZIP archive
-1596275965~~8~~Using sha1 algo
-1596275965~~8~~flash-toolkit 1.2.2
-1596275965~~8~~Attempting to download it from wordpress.org
-1596275967~~8~~Building files list from ZIP archive
-1596275967~~8~~Using sha1 algo
-1596275967~~8~~kliken-marketing-for-google 1.0.4
-1596275967~~8~~Attempting to download it from wordpress.org
-1596275968~~8~~Building files list from ZIP archive
-1596275968~~8~~Using sha1 algo
-1596275968~~8~~jetpack 8.7.1
-1596275968~~8~~Attempting to download it from wordpress.org
-1596275971~~8~~Building files list from ZIP archive
-1596275971~~8~~Using sha1 algo
-1596275973~~8~~mailchimp-for-woocommerce 2.4.1
-1596275973~~8~~Attempting to download it from wordpress.org
-1596275975~~8~~Building files list from ZIP archive
-1596275975~~8~~Using sha1 algo
-1596275975~~8~~ninjascanner 2.0.6
-1596275975~~8~~Attempting to download it from wordpress.org
-1596275977~~8~~Building files list from ZIP archive
-1596275977~~8~~Using sha1 algo
-1596275977~~8~~siteorigin-panels 2.11.1
-1596275977~~8~~Attempting to download it from wordpress.org
-1596275979~~8~~Building files list from ZIP archive
-1596275979~~8~~Using sha1 algo
-1596275979~~8~~secupress 1.4.12
-1596275979~~8~~Attempting to download it from wordpress.org
-1596275981~~8~~Building files list from ZIP archive
-1596275981~~8~~Using sha1 algo
-1596275981~~2~~Checksum mismatch: /home/vtech/wp-content/plugins/secupress/readme.txt
-1596275981~~8~~sucuri-scanner 1.8.24
-1596275981~~8~~Attempting to download it from wordpress.org
-1596275983~~8~~Building files list from ZIP archive
-1596275983~~8~~Using sha1 algo
-1596275983~~8~~woocommerce 4.3.1
-1596275983~~8~~Attempting to download it from wordpress.org
-1596275986~~8~~Building files list from ZIP archive
-1596275987~~8~~Using sha1 algo
-1596275989~~8~~wp-async-javascript 2.20.03.01
-1596275989~~8~~Attempting to download it from wordpress.org
-1596275990~~8~~Not found. Attempting to download it from the trunk folder instead
-1596275990~~2~~HTTP Error 404. Skipping wp-async-javascript 2.20.03.01, it may not be available in the repo
-1596275990~~2~~Total modified plugin files: 1
-1596275990~~8~~Process used 121,727,776 bytes out of 110,972,928 bytes of allocated memory.
-1596275990~~1~~Processing step 5 (0/10)
-1596275990~~1~~Checking theme files integrity
-1596275990~~1~~Building themes list
-1596275990~~8~~Total themes found: 2
-1596275990~~8~~flash-child 1.0
-1596275990~~8~~Attempting to download it from wordpress.org
-1596275991~~2~~HTTP Error 404. Skipping flash-child 1.0, it may not be available in the repo
-1596275991~~8~~flash 1.3.5
-1596275991~~8~~Attempting to download it from wordpress.org
-1596275993~~8~~Building files list from ZIP archive
-1596275994~~8~~Using sha1 algo
-1596275994~~1~~Theme files integrity is O.K
-1596275994~~8~~Process used 121,727,776 bytes out of 110,972,928 bytes of allocated memory.
-1596275994~~1~~Processing step 6 (0/10)
-1596275994~~1~~Comparing previous and current file snapshots
-1596275994~~1~~Skipping snapshots comparison, no older files shapshot found
-1596275994~~8~~Process used 121,727,776 bytes out of 110,972,928 bytes of allocated memory.
-1596275994~~1~~Processing step 7 (0/10)
-1596275994~~1~~Comparing previous and current database snapshots
-1596275994~~1~~Skipping snapshots comparison, no older database shapshot found
-1596275994~~8~~Process used 121,727,776 bytes out of 110,972,928 bytes of allocated memory.
-1596275994~~1~~Processing step 8 (0/10)
-1596275994~~1~~Skipping Google Safe Browsing: no API key found
-1596275994~~8~~Process used 121,727,776 bytes out of 110,972,928 bytes of allocated memory.
-1596275994~~1~~Processing step 9 (0/10)
-1596275994~~1~~Running anti-malware scanner
-1596275994~~1~~Cannot find the list of files to check, creating a new one
-1596275994~~8~~Checking user-defined exclusion lists
-1596275994~~8~~Creating extensions exclusion list
-1596275994~~8~~Creating files/folders exclusion list
-1596275994~~8~~Limiting search to file smaller than 1,048,576 bytes
-1596275995~~8~~Files ignored based on user-defined exclusion lists: 2277
-1596275995~~1~~Retrieving signatures lists
-1596275995~~8~~Checking built-in signatures list
-1596275995~~8~~Downloading the latest version
-1596275996~~8~~Verifying digital signature with public key
-1596275996~~8~~Verifying signatures
-1596275996~~8~~Verified signatures: 1123
-1596275996~~1~~Total loaded signatures: 1123
-1596276032~~1~~No suspicious file detected
-1596276032~~8~~Process used 121,727,776 bytes out of 110,972,928 bytes of allocated memory.
-1596276032~~1~~Processing step 10 (0/10)
-1596276032~~8~~Process used 121,727,776 bytes out of 110,972,928 bytes of allocated memory.
-1596276032~~8~~Sending email report
-1596276032~~8~~Total time: 86.42 seconds. Max memory allocated by system: 110,972,928 bytes. Max memory used by WordPress: 121,727,776 bytes (NinjaScanner: 47,079,312 bytes).
-1596276032~~1~~Exiting scanning process
+1596614274~~1~~Starting scanning process
+1596614274~~8~~Server memory_limit: 128M
+1596614274~~8~~Server max_execution_time: 0
+1596614274~~1~~Processing step 1 (0/10)
+1596614274~~1~~Skipping NinjaScanner files integrity check
+1596614274~~8~~Process used 80,149,704 bytes out of 56,623,104 bytes of allocated memory.
+1596614274~~1~~Processing step 2 (0/10)
+1596614275~~1~~Checking NinjaScanner files integrity
+1596614275~~1~~Total files found: 11602
+1596614275~~2~~Unreadable files found: 1645
+1596614275~~1~~Building database posts and pages checksum
+1596614275~~1~~Found 4 posts and 19 pages in the database
+1596614275~~8~~Process used 87,449,784 bytes out of 65,011,712 bytes of allocated memory.
+1596614275~~1~~Processing step 3 (0/10)
+1596614275~~1~~Checking WordPress core files integrity
+1596614275~~8~~Using local cached copy (wordpress-5.4.2.zip)
+1596614275~~8~~Building files list from ZIP archive
+1596614276~~8~~Using sha1 algo
+1596614278~~1~~Files integrity is O.K
+1596614278~~8~~Process used 87,695,624 bytes out of 65,011,712 bytes of allocated memory.
+1596614278~~1~~Processing step 4 (0/10)
+1596614278~~1~~Checking plugin files integrity
+1596614278~~8~~Building plugins list
+1596614278~~2~~mu-plugin found: 0-ninjafirewall.php 1.0 (/home/vtech/wp-content/plugins/0-ninjafirewall.php)
+1596614278~~2~~mu-plugin found: SecuPress COOKIEHASH 1.0 (/home/vtech/wp-content/plugins/_secupress_cookiehash_5f19405c3f8f0.php)
+1596614278~~2~~mu-plugin found: SecuPress Salt Keys 1.0.1 (/home/vtech/wp-content/plugins/_secupress_salt_keys_5f19407050b08.php)
+1596614278~~8~~Total plugins found: 14
+1596614278~~8~~classic-editor 1.5
+1596614278~~8~~Using local copy
+1596614278~~8~~Building files list from ZIP archive
+1596614278~~8~~Using sha1 algo
+1596614278~~8~~everest-forms 1.7.0.1
+1596614278~~8~~Using local copy
+1596614278~~8~~Building files list from ZIP archive
+1596614279~~8~~Using sha1 algo
+1596614279~~8~~facebook-for-woocommerce 2.0.0
+1596614279~~8~~Using local copy
+1596614279~~8~~Building files list from ZIP archive
+1596614279~~8~~Using sha1 algo
+1596614279~~8~~flash-toolkit 1.2.2
+1596614279~~8~~Using local copy
+1596614279~~8~~Building files list from ZIP archive
+1596614279~~8~~Using sha1 algo
+1596614280~~8~~kliken-marketing-for-google 1.0.4
+1596614280~~8~~Using local copy
+1596614280~~8~~Building files list from ZIP archive
+1596614280~~8~~Using sha1 algo
+1596614280~~8~~jetpack 8.7.1
+1596614280~~8~~Using local copy
+1596614280~~8~~Building files list from ZIP archive
+1596614281~~8~~Using sha1 algo
+1596614284~~8~~mailchimp-for-woocommerce 2.4.3
+1596614284~~8~~Using local copy
+1596614284~~8~~Building files list from ZIP archive
+1596614284~~8~~Using sha1 algo
+1596614284~~8~~ninjafirewall 4.2.3
+1596614284~~8~~Using local copy
+1596614284~~8~~Building files list from ZIP archive
+1596614284~~8~~Using sha1 algo
+1596614285~~2~~Checksum mismatch: /home/vtech/wp-content/plugins/ninjafirewall/readme.txt
+1596614285~~8~~ninjascanner 2.0.6
+1596614285~~8~~Using local copy
+1596614285~~8~~Building files list from ZIP archive
+1596614285~~8~~Using sha1 algo
+1596614285~~2~~Checksum mismatch: /home/vtech/wp-content/plugins/ninjascanner/readme.txt
+1596614285~~8~~siteorigin-panels 2.11.1
+1596614285~~8~~Using local copy
+1596614285~~8~~Building files list from ZIP archive
+1596614285~~8~~Using sha1 algo
+1596614285~~8~~secupress 1.4.12
+1596614285~~8~~Using local copy
+1596614285~~8~~Building files list from ZIP archive
+1596614285~~8~~Using sha1 algo
+1596614285~~2~~Checksum mismatch: /home/vtech/wp-content/plugins/secupress/readme.txt
+1596614285~~8~~sucuri-scanner 1.8.24
+1596614285~~8~~Using local copy
+1596614285~~8~~Building files list from ZIP archive
+1596614285~~8~~Using sha1 algo
+1596614285~~8~~woocommerce 4.3.1
+1596614285~~8~~Using local copy
+1596614285~~8~~Building files list from ZIP archive
+1596614287~~8~~Using sha1 algo
+1596614291~~8~~wp-async-javascript 2.20.03.01
+1596614291~~8~~Attempting to download it from wordpress.org
+1596614292~~8~~Not found. Attempting to download it from the trunk folder instead
+1596614293~~2~~HTTP Error 404. Skipping wp-async-javascript 2.20.03.01, it may not be available in the repo
+1596614293~~2~~Total modified plugin files: 3
+1596614293~~8~~Process used 87,754,416 bytes out of 65,011,712 bytes of allocated memory.
+1596614293~~1~~Processing step 5 (0/10)
+1596614293~~1~~Checking theme files integrity
+1596614293~~1~~Building themes list
+1596614293~~8~~Total themes found: 2
+1596614293~~8~~flash-child 1.0
+1596614293~~8~~Attempting to download it from wordpress.org
+1596614293~~2~~HTTP Error 404. Skipping flash-child 1.0, it may not be available in the repo
+1596614293~~8~~flash 1.3.5
+1596614293~~8~~Using local copy
+1596614293~~8~~Building files list from ZIP archive
+1596614294~~8~~Using sha1 algo
+1596614294~~1~~Theme files integrity is O.K
+1596614294~~8~~Process used 87,754,416 bytes out of 65,011,712 bytes of allocated memory.
+1596614294~~1~~Processing step 6 (0/10)
+1596614294~~1~~Comparing previous and current file snapshots
+1596614294~~8~~Checking user-defined exclusion lists
+1596614294~~8~~Creating extensions exclusion list
+1596614294~~8~~Creating files/folders exclusion list
+1596614294~~8~~Limiting search to file smaller than 1,048,576 bytes
+1596614294~~8~~Files ignored based on user-defined exclusion lists: 2340
+1596614294~~2~~Total additional files: 7
+1596614294~~2~~Total modified files: 1495
+1596614294~~2~~Total deleted files: 15
+1596614294~~8~~Process used 97,055,104 bytes out of 73,400,320 bytes of allocated memory.
+1596614294~~1~~Processing step 7 (0/10)
+1596614294~~1~~Comparing previous and current database snapshots
+1596614294~~1~~Previous and current snapshots match
+1596614294~~8~~Process used 97,055,104 bytes out of 73,400,320 bytes of allocated memory.
+1596614294~~1~~Processing step 8 (0/10)
+1596614294~~1~~Skipping Google Safe Browsing: no API key found
+1596614294~~8~~Process used 97,055,104 bytes out of 73,400,320 bytes of allocated memory.
+1596614294~~1~~Processing step 9 (0/10)
+1596614294~~1~~Running anti-malware scanner
+1596614294~~1~~Retrieving signatures lists
+1596614294~~8~~Checking built-in signatures list
+1596614294~~8~~Using local copy
+1596614294~~8~~Verifying signatures
+1596614294~~8~~Verified signatures: 1123
+1596614294~~1~~Total loaded signatures: 1123
+1596614322~~1~~No suspicious file detected
+1596614322~~8~~Process used 97,055,104 bytes out of 75,497,472 bytes of allocated memory.
+1596614322~~1~~Processing step 10 (0/10)
+1596614322~~8~~Process used 97,055,104 bytes out of 75,497,472 bytes of allocated memory.
+1596614322~~8~~Sending email report
+1596614322~~8~~Total time: 47.85 seconds. Max memory allocated by system: 75,497,472 bytes. Max memory used by WordPress: 97,055,104 bytes (NinjaScanner: 16,905,400 bytes).
+1596614322~~1~~Exiting scanning process

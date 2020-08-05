@@ -1,0 +1,23 @@
+05-Aug-20 07:58:51 Starting Garbage Collector (/home/vtech/wp-content/ninjascanner/nscan5f253cd51cbdf7.63130965/cache)
+05-Aug-20 07:58:51 Keeping file .htaccess
+05-Aug-20 07:58:51 Deleting file ignored.log
+05-Aug-20 07:58:51 Keeping file index.html
+05-Aug-20 07:58:51 Deleting file plugin_classic-editor.1.5.zip
+05-Aug-20 07:58:51 Deleting file plugin_everest-forms.1.7.0.1.zip
+05-Aug-20 07:58:51 Deleting file plugin_facebook-for-woocommerce.2.0.0.zip
+05-Aug-20 07:58:51 Deleting file plugin_flash-toolkit.1.2.2.zip
+05-Aug-20 07:58:51 Deleting file plugin_jetpack.8.7.1.zip
+05-Aug-20 07:58:51 Deleting file plugin_kliken-marketing-for-google.1.0.4.zip
+05-Aug-20 07:58:51 Deleting file plugin_mailchimp-for-woocommerce.2.4.3.zip
+05-Aug-20 07:58:51 Deleting file plugin_ninjafirewall.4.2.3.zip
+05-Aug-20 07:58:51 Deleting file plugin_ninjascanner.2.0.6.zip
+05-Aug-20 07:58:51 Deleting file plugin_secupress.1.4.12.zip
+05-Aug-20 07:58:51 Deleting file plugin_siteorigin-panels.2.11.1.zip
+05-Aug-20 07:58:51 Deleting file plugin_sucuri-scanner.1.8.24.zip
+05-Aug-20 07:58:51 Deleting file plugin_woocommerce.4.3.1.zip
+05-Aug-20 07:58:51 Keeping file signatures.txt
+05-Aug-20 07:58:51 Keeping file snapshot.log
+05-Aug-20 07:58:51 Keeping file snapshot.old
+05-Aug-20 07:58:51 Deleting file theme_flash.1.3.5.zip
+05-Aug-20 07:58:51 Deleting file wordpress-5.4.2.zip
+05-Aug-20 07:58:51 Stopping Garbage Collector. Total files and folders deleted: 16
