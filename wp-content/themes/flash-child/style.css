@@ -52,6 +52,12 @@ Text Domain:  flash-child
     color: #fff;
 }
 
+.testimonial-container .testimonial-img {
+	border-radius: 50%;
+    overflow: hidden;
+    width: 100px;
+}
+
 @media screen and (max-width: 768px){
     .project-featured-wrapper .single-featured, .project-featured-wrapper .single-project-description{width: 100%; float: left;}
 	.projects ul.projects li.project, .projects-page ul.projects li.project, .woocommerce ul.products.columns-4 li.product, .woocommerce-page ul.products.columns-4 li.product {
